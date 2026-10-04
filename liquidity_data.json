@@ -1,0 +1,3502 @@
+[
+  {
+    "record_date": "2024-10-03",
+    "open_today_bal": "823412.0",
+    "deposits_today": "288497.0",
+    "withdrawals_today": "315962.0",
+    "close_today_bal": "795948.0"
+  },
+  {
+    "record_date": "2024-10-04",
+    "open_today_bal": "795948.0",
+    "deposits_today": "15877.0",
+    "withdrawals_today": "11574.0",
+    "close_today_bal": "800250.0"
+  },
+  {
+    "record_date": "2024-10-07",
+    "open_today_bal": "800250.0",
+    "deposits_today": "26297.0",
+    "withdrawals_today": "16030.0",
+    "close_today_bal": "810517.0"
+  },
+  {
+    "record_date": "2024-10-08",
+    "open_today_bal": "810517.0",
+    "deposits_today": "263894.0",
+    "withdrawals_today": "254219.0",
+    "close_today_bal": "820191.0"
+  },
+  {
+    "record_date": "2024-10-09",
+    "open_today_bal": "820191.0",
+    "deposits_today": "17130.0",
+    "withdrawals_today": "49926.0",
+    "close_today_bal": "787395.0"
+  },
+  {
+    "record_date": "2024-10-10",
+    "open_today_bal": "787395.0",
+    "deposits_today": "249358.0",
+    "withdrawals_today": "253409.0",
+    "close_today_bal": "783345.0"
+  },
+  {
+    "record_date": "2024-10-11",
+    "open_today_bal": "783345.0",
+    "deposits_today": "18107.0",
+    "withdrawals_today": "21753.0",
+    "close_today_bal": "779699.0"
+  },
+  {
+    "record_date": "2024-10-15",
+    "open_today_bal": "779699.0",
+    "deposits_today": "422370.0",
+    "withdrawals_today": "376416.0",
+    "close_today_bal": "825653.0"
+  },
+  {
+    "record_date": "2024-10-16",
+    "open_today_bal": "825653.0",
+    "deposits_today": "32914.0",
+    "withdrawals_today": "43816.0",
+    "close_today_bal": "814751.0"
+  },
+  {
+    "record_date": "2024-10-17",
+    "open_today_bal": "814751.0",
+    "deposits_today": "261109.0",
+    "withdrawals_today": "247014.0",
+    "close_today_bal": "828847.0"
+  },
+  {
+    "record_date": "2024-10-18",
+    "open_today_bal": "828847.0",
+    "deposits_today": "15352.0",
+    "withdrawals_today": "16401.0",
+    "close_today_bal": "827798.0"
+  },
+  {
+    "record_date": "2024-10-21",
+    "open_today_bal": "827798.0",
+    "deposits_today": "28631.0",
+    "withdrawals_today": "14833.0",
+    "close_today_bal": "841596.0"
+  },
+  {
+    "record_date": "2024-10-22",
+    "open_today_bal": "841596.0",
+    "deposits_today": "261347.0",
+    "withdrawals_today": "264253.0",
+    "close_today_bal": "838690.0"
+  },
+  {
+    "record_date": "2024-10-23",
+    "open_today_bal": "838690.0",
+    "deposits_today": "25831.0",
+    "withdrawals_today": "47111.0",
+    "close_today_bal": "817410.0"
+  },
+  {
+    "record_date": "2024-10-24",
+    "open_today_bal": "817410.0",
+    "deposits_today": "250704.0",
+    "withdrawals_today": "233979.0",
+    "close_today_bal": "834134.0"
+  },
+  {
+    "record_date": "2024-10-25",
+    "open_today_bal": "834134.0",
+    "deposits_today": "14753.0",
+    "withdrawals_today": "21409.0",
+    "close_today_bal": "827478.0"
+  },
+  {
+    "record_date": "2024-10-28",
+    "open_today_bal": "827478.0",
+    "deposits_today": "31479.0",
+    "withdrawals_today": "23063.0",
+    "close_today_bal": "835894.0"
+  },
+  {
+    "record_date": "2024-10-29",
+    "open_today_bal": "835894.0",
+    "deposits_today": "263002.0",
+    "withdrawals_today": "251833.0",
+    "close_today_bal": "847063.0"
+  },
+  {
+    "record_date": "2024-10-30",
+    "open_today_bal": "847063.0",
+    "deposits_today": "20069.0",
+    "withdrawals_today": "19995.0",
+    "close_today_bal": "847137.0"
+  },
+  {
+    "record_date": "2024-10-31",
+    "open_today_bal": "847137.0",
+    "deposits_today": "571150.0",
+    "withdrawals_today": "497245.0",
+    "close_today_bal": "921042.0"
+  },
+  {
+    "record_date": "2024-11-01",
+    "open_today_bal": "921042.0",
+    "deposits_today": "33529.0",
+    "withdrawals_today": "135341.0",
+    "close_today_bal": "819229.0"
+  },
+  {
+    "record_date": "2024-11-04",
+    "open_today_bal": "819229.0",
+    "deposits_today": "34144.0",
+    "withdrawals_today": "16771.0",
+    "close_today_bal": "836603.0"
+  },
+  {
+    "record_date": "2024-11-05",
+    "open_today_bal": "836603.0",
+    "deposits_today": "262880.0",
+    "withdrawals_today": "260683.0",
+    "close_today_bal": "838800.0"
+  },
+  {
+    "record_date": "2024-11-06",
+    "open_today_bal": "838800.0",
+    "deposits_today": "19212.0",
+    "withdrawals_today": "17784.0",
+    "close_today_bal": "840227.0"
+  },
+  {
+    "record_date": "2024-11-07",
+    "open_today_bal": "840227.0",
+    "deposits_today": "251513.0",
+    "withdrawals_today": "251777.0",
+    "close_today_bal": "839963.0"
+  },
+  {
+    "record_date": "2024-11-08",
+    "open_today_bal": "839963.0",
+    "deposits_today": "14618.0",
+    "withdrawals_today": "23303.0",
+    "close_today_bal": "831278.0"
+  },
+  {
+    "record_date": "2024-11-12",
+    "open_today_bal": "831278.0",
+    "deposits_today": "283031.0",
+    "withdrawals_today": "262937.0",
+    "close_today_bal": "851371.0"
+  },
+  {
+    "record_date": "2024-11-13",
+    "open_today_bal": "851371.0",
+    "deposits_today": "12881.0",
+    "withdrawals_today": "55395.0",
+    "close_today_bal": "808857.0"
+  },
+  {
+    "record_date": "2024-11-14",
+    "open_today_bal": "808857.0",
+    "deposits_today": "265294.0",
+    "withdrawals_today": "258458.0",
+    "close_today_bal": "815693.0"
+  },
+  {
+    "record_date": "2024-11-15",
+    "open_today_bal": "815693.0",
+    "deposits_today": "173369.0",
+    "withdrawals_today": "258151.0",
+    "close_today_bal": "730911.0"
+  },
+  {
+    "record_date": "2024-11-18",
+    "open_today_bal": "730911.0",
+    "deposits_today": "39549.0",
+    "withdrawals_today": "16327.0",
+    "close_today_bal": "754133.0"
+  },
+  {
+    "record_date": "2024-11-19",
+    "open_today_bal": "754133.0",
+    "deposits_today": "266973.0",
+    "withdrawals_today": "258389.0",
+    "close_today_bal": "762717.0"
+  },
+  {
+    "record_date": "2024-11-20",
+    "open_today_bal": "762717.0",
+    "deposits_today": "18925.0",
+    "withdrawals_today": "43808.0",
+    "close_today_bal": "737834.0"
+  },
+  {
+    "record_date": "2024-11-21",
+    "open_today_bal": "737834.0",
+    "deposits_today": "301989.0",
+    "withdrawals_today": "260126.0",
+    "close_today_bal": "779696.0"
+  },
+  {
+    "record_date": "2024-11-22",
+    "open_today_bal": "779696.0",
+    "deposits_today": "13743.0",
+    "withdrawals_today": "34776.0",
+    "close_today_bal": "758663.0"
+  },
+  {
+    "record_date": "2024-11-25",
+    "open_today_bal": "758663.0",
+    "deposits_today": "37018.0",
+    "withdrawals_today": "18566.0",
+    "close_today_bal": "777116.0"
+  },
+  {
+    "record_date": "2024-11-26",
+    "open_today_bal": "777116.0",
+    "deposits_today": "301729.0",
+    "withdrawals_today": "267602.0",
+    "close_today_bal": "811242.0"
+  },
+  {
+    "record_date": "2024-11-27",
+    "open_today_bal": "811242.0",
+    "deposits_today": "21167.0",
+    "withdrawals_today": "49705.0",
+    "close_today_bal": "782704.0"
+  },
+  {
+    "record_date": "2024-11-29",
+    "open_today_bal": "782704.0",
+    "deposits_today": "357270.0",
+    "withdrawals_today": "383096.0",
+    "close_today_bal": "756878.0"
+  },
+  {
+    "record_date": "2024-12-02",
+    "open_today_bal": "756878.0",
+    "deposits_today": "256354.0",
+    "withdrawals_today": "170451.0",
+    "close_today_bal": "842781.0"
+  },
+  {
+    "record_date": "2024-12-03",
+    "open_today_bal": "842781.0",
+    "deposits_today": "264694.0",
+    "withdrawals_today": "291993.0",
+    "close_today_bal": "815482.0"
+  },
+  {
+    "record_date": "2024-12-04",
+    "open_today_bal": "815482.0",
+    "deposits_today": "19026.0",
+    "withdrawals_today": "19497.0",
+    "close_today_bal": "815011.0"
+  },
+  {
+    "record_date": "2024-12-05",
+    "open_today_bal": "815011.0",
+    "deposits_today": "236415.0",
+    "withdrawals_today": "252772.0",
+    "close_today_bal": "798654.0"
+  },
+  {
+    "record_date": "2024-12-06",
+    "open_today_bal": "798654.0",
+    "deposits_today": "14784.0",
+    "withdrawals_today": "24683.0",
+    "close_today_bal": "788754.0"
+  },
+  {
+    "record_date": "2024-12-09",
+    "open_today_bal": "788754.0",
+    "deposits_today": "31082.0",
+    "withdrawals_today": "18946.0",
+    "close_today_bal": "800890.0"
+  },
+  {
+    "record_date": "2024-12-10",
+    "open_today_bal": "800890.0",
+    "deposits_today": "243222.0",
+    "withdrawals_today": "295803.0",
+    "close_today_bal": "748309.0"
+  },
+  {
+    "record_date": "2024-12-11",
+    "open_today_bal": "748309.0",
+    "deposits_today": "20665.0",
+    "withdrawals_today": "57620.0",
+    "close_today_bal": "711354.0"
+  },
+  {
+    "record_date": "2024-12-12",
+    "open_today_bal": "711354.0",
+    "deposits_today": "241716.0",
+    "withdrawals_today": "249394.0",
+    "close_today_bal": "703676.0"
+  },
+  {
+    "record_date": "2024-12-13",
+    "open_today_bal": "703676.0",
+    "deposits_today": "40872.0",
+    "withdrawals_today": "19224.0",
+    "close_today_bal": "725325.0"
+  },
+  {
+    "record_date": "2024-12-16",
+    "open_today_bal": "725325.0",
+    "deposits_today": "220522.0",
+    "withdrawals_today": "84630.0",
+    "close_today_bal": "861216.0"
+  },
+  {
+    "record_date": "2024-12-17",
+    "open_today_bal": "861216.0",
+    "deposits_today": "238311.0",
+    "withdrawals_today": "268847.0",
+    "close_today_bal": "830681.0"
+  },
+  {
+    "record_date": "2024-12-18",
+    "open_today_bal": "830681.0",
+    "deposits_today": "21687.0",
+    "withdrawals_today": "48393.0",
+    "close_today_bal": "803975.0"
+  },
+  {
+    "record_date": "2024-12-19",
+    "open_today_bal": "803975.0",
+    "deposits_today": "230718.0",
+    "withdrawals_today": "246710.0",
+    "close_today_bal": "787982.0"
+  },
+  {
+    "record_date": "2024-12-20",
+    "open_today_bal": "787982.0",
+    "deposits_today": "19956.0",
+    "withdrawals_today": "40448.0",
+    "close_today_bal": "767489.0"
+  },
+  {
+    "record_date": "2024-12-23",
+    "open_today_bal": "767489.0",
+    "deposits_today": "47154.0",
+    "withdrawals_today": "21779.0",
+    "close_today_bal": "792864.0"
+  },
+  {
+    "record_date": "2024-12-24",
+    "open_today_bal": "792864.0",
+    "deposits_today": "236416.0",
+    "withdrawals_today": "294240.0",
+    "close_today_bal": "735039.0"
+  },
+  {
+    "record_date": "2024-12-26",
+    "open_today_bal": "735039.0",
+    "deposits_today": "287164.0",
+    "withdrawals_today": "333505.0",
+    "close_today_bal": "688699.0"
+  },
+  {
+    "record_date": "2024-12-27",
+    "open_today_bal": "688699.0",
+    "deposits_today": "51473.0",
+    "withdrawals_today": "19772.0",
+    "close_today_bal": "720401.0"
+  },
+  {
+    "record_date": "2024-12-30",
+    "open_today_bal": "720401.0",
+    "deposits_today": "44060.0",
+    "withdrawals_today": "19033.0",
+    "close_today_bal": "745427.0"
+  },
+  {
+    "record_date": "2024-12-31",
+    "open_today_bal": "745427.0",
+    "deposits_today": "456284.0",
+    "withdrawals_today": "479819.0",
+    "close_today_bal": "721892.0"
+  },
+  {
+    "record_date": "2025-01-02",
+    "open_today_bal": "721892.0",
+    "deposits_today": "287029.0",
+    "withdrawals_today": "331876.0",
+    "close_today_bal": "677045.0"
+  },
+  {
+    "record_date": "2025-01-03",
+    "open_today_bal": "677045.0",
+    "deposits_today": "19063.0",
+    "withdrawals_today": "45831.0",
+    "close_today_bal": "650277.0"
+  },
+  {
+    "record_date": "2025-01-06",
+    "open_today_bal": "650277.0",
+    "deposits_today": "38384.0",
+    "withdrawals_today": "20104.0",
+    "close_today_bal": "668557.0"
+  },
+  {
+    "record_date": "2025-01-07",
+    "open_today_bal": "668557.0",
+    "deposits_today": "243690.0",
+    "withdrawals_today": "260759.0",
+    "close_today_bal": "651488.0"
+  },
+  {
+    "record_date": "2025-01-08",
+    "open_today_bal": "651488.0",
+    "deposits_today": "17590.0",
+    "withdrawals_today": "48546.0",
+    "close_today_bal": "620531.0"
+  },
+  {
+    "record_date": "2025-01-09",
+    "open_today_bal": "620531.0",
+    "deposits_today": "258241.0",
+    "withdrawals_today": "255044.0",
+    "close_today_bal": "623729.0"
+  },
+  {
+    "record_date": "2025-01-10",
+    "open_today_bal": "623729.0",
+    "deposits_today": "17007.0",
+    "withdrawals_today": "9152.0",
+    "close_today_bal": "631584.0"
+  },
+  {
+    "record_date": "2025-01-13",
+    "open_today_bal": "631584.0",
+    "deposits_today": "38633.0",
+    "withdrawals_today": "22862.0",
+    "close_today_bal": "647354.0"
+  },
+  {
+    "record_date": "2025-01-14",
+    "open_today_bal": "647354.0",
+    "deposits_today": "279196.0",
+    "withdrawals_today": "255000.0",
+    "close_today_bal": "671551.0"
+  },
+  {
+    "record_date": "2025-01-15",
+    "open_today_bal": "671551.0",
+    "deposits_today": "209529.0",
+    "withdrawals_today": "229892.0",
+    "close_today_bal": "651187.0"
+  },
+  {
+    "record_date": "2025-01-16",
+    "open_today_bal": "651187.0",
+    "deposits_today": "282912.0",
+    "withdrawals_today": "256911.0",
+    "close_today_bal": "677188.0"
+  },
+  {
+    "record_date": "2025-01-17",
+    "open_today_bal": "677188.0",
+    "deposits_today": "17481.0",
+    "withdrawals_today": "21313.0",
+    "close_today_bal": "673357.0"
+  },
+  {
+    "record_date": "2025-01-21",
+    "open_today_bal": "673357.0",
+    "deposits_today": "287577.0",
+    "withdrawals_today": "256060.0",
+    "close_today_bal": "704874.0"
+  },
+  {
+    "record_date": "2025-01-22",
+    "open_today_bal": "704874.0",
+    "deposits_today": "17145.0",
+    "withdrawals_today": "56534.0",
+    "close_today_bal": "665485.0"
+  },
+  {
+    "record_date": "2025-01-23",
+    "open_today_bal": "665485.0",
+    "deposits_today": "397101.0",
+    "withdrawals_today": "302543.0",
+    "close_today_bal": "760043.0"
+  },
+  {
+    "record_date": "2025-01-24",
+    "open_today_bal": "760043.0",
+    "deposits_today": "25320.0",
+    "withdrawals_today": "16379.0",
+    "close_today_bal": "768984.0"
+  },
+  {
+    "record_date": "2025-01-27",
+    "open_today_bal": "768984.0",
+    "deposits_today": "42089.0",
+    "withdrawals_today": "13614.0",
+    "close_today_bal": "797458.0"
+  },
+  {
+    "record_date": "2025-01-28",
+    "open_today_bal": "797458.0",
+    "deposits_today": "264123.0",
+    "withdrawals_today": "248138.0",
+    "close_today_bal": "813442.0"
+  },
+  {
+    "record_date": "2025-01-29",
+    "open_today_bal": "813442.0",
+    "deposits_today": "24035.0",
+    "withdrawals_today": "25928.0",
+    "close_today_bal": "811549.0"
+  },
+  {
+    "record_date": "2025-01-30",
+    "open_today_bal": "811549.0",
+    "deposits_today": "269398.0",
+    "withdrawals_today": "254996.0",
+    "close_today_bal": "825951.0"
+  },
+  {
+    "record_date": "2025-01-31",
+    "open_today_bal": "825951.0",
+    "deposits_today": "286444.0",
+    "withdrawals_today": "319370.0",
+    "close_today_bal": "793025.0"
+  },
+  {
+    "record_date": "2025-02-03",
+    "open_today_bal": "793025.0",
+    "deposits_today": "66063.0",
+    "withdrawals_today": "59083.0",
+    "close_today_bal": "800006.0"
+  },
+  {
+    "record_date": "2025-02-04",
+    "open_today_bal": "800006.0",
+    "deposits_today": "269809.0",
+    "withdrawals_today": "253648.0",
+    "close_today_bal": "816166.0"
+  },
+  {
+    "record_date": "2025-02-05",
+    "open_today_bal": "816166.0",
+    "deposits_today": "19279.0",
+    "withdrawals_today": "17493.0",
+    "close_today_bal": "817953.0"
+  },
+  {
+    "record_date": "2025-02-06",
+    "open_today_bal": "817953.0",
+    "deposits_today": "261451.0",
+    "withdrawals_today": "249081.0",
+    "close_today_bal": "830323.0"
+  },
+  {
+    "record_date": "2025-02-07",
+    "open_today_bal": "830323.0",
+    "deposits_today": "14412.0",
+    "withdrawals_today": "18984.0",
+    "close_today_bal": "825751.0"
+  },
+  {
+    "record_date": "2025-02-10",
+    "open_today_bal": "825751.0",
+    "deposits_today": "30902.0",
+    "withdrawals_today": "18848.0",
+    "close_today_bal": "837805.0"
+  },
+  {
+    "record_date": "2025-02-11",
+    "open_today_bal": "837805.0",
+    "deposits_today": "263150.0",
+    "withdrawals_today": "258773.0",
+    "close_today_bal": "842182.0"
+  },
+  {
+    "record_date": "2025-02-12",
+    "open_today_bal": "842182.0",
+    "deposits_today": "17488.0",
+    "withdrawals_today": "50515.0",
+    "close_today_bal": "809154.0"
+  },
+  {
+    "record_date": "2025-02-13",
+    "open_today_bal": "809154.0",
+    "deposits_today": "262323.0",
+    "withdrawals_today": "262139.0",
+    "close_today_bal": "809338.0"
+  },
+  {
+    "record_date": "2025-02-14",
+    "open_today_bal": "809338.0",
+    "deposits_today": "19115.0",
+    "withdrawals_today": "26369.0",
+    "close_today_bal": "802084.0"
+  },
+  {
+    "record_date": "2025-02-18",
+    "open_today_bal": "802084.0",
+    "deposits_today": "461482.0",
+    "withdrawals_today": "489740.0",
+    "close_today_bal": "773826.0"
+  },
+  {
+    "record_date": "2025-02-19",
+    "open_today_bal": "773826.0",
+    "deposits_today": "13473.0",
+    "withdrawals_today": "48360.0",
+    "close_today_bal": "738938.0"
+  },
+  {
+    "record_date": "2025-02-20",
+    "open_today_bal": "738938.0",
+    "deposits_today": "313241.0",
+    "withdrawals_today": "324299.0",
+    "close_today_bal": "727881.0"
+  },
+  {
+    "record_date": "2025-02-21",
+    "open_today_bal": "727881.0",
+    "deposits_today": "15458.0",
+    "withdrawals_today": "29697.0",
+    "close_today_bal": "713642.0"
+  },
+  {
+    "record_date": "2025-02-24",
+    "open_today_bal": "713642.0",
+    "deposits_today": "34415.0",
+    "withdrawals_today": "40999.0",
+    "close_today_bal": "707057.0"
+  },
+  {
+    "record_date": "2025-02-25",
+    "open_today_bal": "707057.0",
+    "deposits_today": "246553.0",
+    "withdrawals_today": "329899.0",
+    "close_today_bal": "623711.0"
+  },
+  {
+    "record_date": "2025-02-26",
+    "open_today_bal": "623711.0",
+    "deposits_today": "20477.0",
+    "withdrawals_today": "75637.0",
+    "close_today_bal": "568550.0"
+  },
+  {
+    "record_date": "2025-02-27",
+    "open_today_bal": "568550.0",
+    "deposits_today": "239184.0",
+    "withdrawals_today": "270441.0",
+    "close_today_bal": "537294.0"
+  },
+  {
+    "record_date": "2025-02-28",
+    "open_today_bal": "537294.0",
+    "deposits_today": "281285.0",
+    "withdrawals_today": "258997.0",
+    "close_today_bal": "559582.0"
+  },
+  {
+    "record_date": "2025-03-03",
+    "open_today_bal": "559582.0",
+    "deposits_today": "69621.0",
+    "withdrawals_today": "62494.0",
+    "close_today_bal": "566710.0"
+  },
+  {
+    "record_date": "2025-03-04",
+    "open_today_bal": "566710.0",
+    "deposits_today": "233477.0",
+    "withdrawals_today": "267436.0",
+    "close_today_bal": "532751.0"
+  },
+  {
+    "record_date": "2025-03-05",
+    "open_today_bal": "532751.0",
+    "deposits_today": "22497.0",
+    "withdrawals_today": "32430.0",
+    "close_today_bal": "522818.0"
+  },
+  {
+    "record_date": "2025-03-06",
+    "open_today_bal": "522818.0",
+    "deposits_today": "267248.0",
+    "withdrawals_today": "260578.0",
+    "close_today_bal": "529488.0"
+  },
+  {
+    "record_date": "2025-03-07",
+    "open_today_bal": "529488.0",
+    "deposits_today": "17194.0",
+    "withdrawals_today": "25221.0",
+    "close_today_bal": "521461.0"
+  },
+  {
+    "record_date": "2025-03-10",
+    "open_today_bal": "521461.0",
+    "deposits_today": "42688.0",
+    "withdrawals_today": "21561.0",
+    "close_today_bal": "542588.0"
+  },
+  {
+    "record_date": "2025-03-11",
+    "open_today_bal": "542588.0",
+    "deposits_today": "227295.0",
+    "withdrawals_today": "268986.0",
+    "close_today_bal": "500897.0"
+  },
+  {
+    "record_date": "2025-03-12",
+    "open_today_bal": "500897.0",
+    "deposits_today": "21614.0",
+    "withdrawals_today": "71798.0",
+    "close_today_bal": "450713.0"
+  },
+  {
+    "record_date": "2025-03-13",
+    "open_today_bal": "450713.0",
+    "deposits_today": "227987.0",
+    "withdrawals_today": "266277.0",
+    "close_today_bal": "412423.0"
+  },
+  {
+    "record_date": "2025-03-14",
+    "open_today_bal": "412423.0",
+    "deposits_today": "29819.0",
+    "withdrawals_today": "28102.0",
+    "close_today_bal": "414141.0"
+  },
+  {
+    "record_date": "2025-03-17",
+    "open_today_bal": "414141.0",
+    "deposits_today": "199103.0",
+    "withdrawals_today": "82492.0",
+    "close_today_bal": "530752.0"
+  },
+  {
+    "record_date": "2025-03-18",
+    "open_today_bal": "530752.0",
+    "deposits_today": "225488.0",
+    "withdrawals_today": "306087.0",
+    "close_today_bal": "450153.0"
+  },
+  {
+    "record_date": "2025-03-19",
+    "open_today_bal": "450153.0",
+    "deposits_today": "20342.0",
+    "withdrawals_today": "54695.0",
+    "close_today_bal": "415799.0"
+  },
+  {
+    "record_date": "2025-03-20",
+    "open_today_bal": "415799.0",
+    "deposits_today": "270474.0",
+    "withdrawals_today": "303027.0",
+    "close_today_bal": "383246.0"
+  },
+  {
+    "record_date": "2025-03-21",
+    "open_today_bal": "383246.0",
+    "deposits_today": "15482.0",
+    "withdrawals_today": "36783.0",
+    "close_today_bal": "361945.0"
+  },
+  {
+    "record_date": "2025-03-24",
+    "open_today_bal": "361945.0",
+    "deposits_today": "40714.0",
+    "withdrawals_today": "16973.0",
+    "close_today_bal": "385686.0"
+  },
+  {
+    "record_date": "2025-03-25",
+    "open_today_bal": "385686.0",
+    "deposits_today": "224427.0",
+    "withdrawals_today": "259615.0",
+    "close_today_bal": "350498.0"
+  },
+  {
+    "record_date": "2025-03-26",
+    "open_today_bal": "350498.0",
+    "deposits_today": "19302.0",
+    "withdrawals_today": "53830.0",
+    "close_today_bal": "315970.0"
+  },
+  {
+    "record_date": "2025-03-27",
+    "open_today_bal": "315970.0",
+    "deposits_today": "227067.0",
+    "withdrawals_today": "262388.0",
+    "close_today_bal": "280650.0"
+  },
+  {
+    "record_date": "2025-03-28",
+    "open_today_bal": "280650.0",
+    "deposits_today": "51337.0",
+    "withdrawals_today": "30198.0",
+    "close_today_bal": "301789.0"
+  },
+  {
+    "record_date": "2025-03-31",
+    "open_today_bal": "301789.0",
+    "deposits_today": "262527.0",
+    "withdrawals_today": "158530.0",
+    "close_today_bal": "405786.0"
+  },
+  {
+    "record_date": "2025-04-01",
+    "open_today_bal": "405786.0",
+    "deposits_today": "250278.0",
+    "withdrawals_today": "356206.0",
+    "close_today_bal": "299858.0"
+  },
+  {
+    "record_date": "2025-04-02",
+    "open_today_bal": "299858.0",
+    "deposits_today": "27109.0",
+    "withdrawals_today": "25342.0",
+    "close_today_bal": "301624.0"
+  },
+  {
+    "record_date": "2025-04-03",
+    "open_today_bal": "301624.0",
+    "deposits_today": "288860.0",
+    "withdrawals_today": "294124.0",
+    "close_today_bal": "296360.0"
+  },
+  {
+    "record_date": "2025-04-04",
+    "open_today_bal": "296360.0",
+    "deposits_today": "19612.0",
+    "withdrawals_today": "24580.0",
+    "close_today_bal": "291391.0"
+  },
+  {
+    "record_date": "2025-04-07",
+    "open_today_bal": "291391.0",
+    "deposits_today": "35099.0",
+    "withdrawals_today": "16502.0",
+    "close_today_bal": "309989.0"
+  },
+  {
+    "record_date": "2025-04-08",
+    "open_today_bal": "309989.0",
+    "deposits_today": "288345.0",
+    "withdrawals_today": "251699.0",
+    "close_today_bal": "346635.0"
+  },
+  {
+    "record_date": "2025-04-09",
+    "open_today_bal": "346635.0",
+    "deposits_today": "26367.0",
+    "withdrawals_today": "57813.0",
+    "close_today_bal": "315189.0"
+  },
+  {
+    "record_date": "2025-04-10",
+    "open_today_bal": "315189.0",
+    "deposits_today": "260870.0",
+    "withdrawals_today": "261591.0",
+    "close_today_bal": "314467.0"
+  },
+  {
+    "record_date": "2025-04-11",
+    "open_today_bal": "314467.0",
+    "deposits_today": "50474.0",
+    "withdrawals_today": "34438.0",
+    "close_today_bal": "330503.0"
+  },
+  {
+    "record_date": "2025-04-14",
+    "open_today_bal": "330503.0",
+    "deposits_today": "105437.0",
+    "withdrawals_today": "20270.0",
+    "close_today_bal": "415670.0"
+  },
+  {
+    "record_date": "2025-04-15",
+    "open_today_bal": "415670.0",
+    "deposits_today": "549487.0",
+    "withdrawals_today": "364703.0",
+    "close_today_bal": "600455.0"
+  },
+  {
+    "record_date": "2025-04-16",
+    "open_today_bal": "600455.0",
+    "deposits_today": "89851.0",
+    "withdrawals_today": "51524.0",
+    "close_today_bal": "638783.0"
+  },
+  {
+    "record_date": "2025-04-17",
+    "open_today_bal": "638783.0",
+    "deposits_today": "324754.0",
+    "withdrawals_today": "363544.0",
+    "close_today_bal": "599993.0"
+  },
+  {
+    "record_date": "2025-04-18",
+    "open_today_bal": "599993.0",
+    "deposits_today": "31002.0",
+    "withdrawals_today": "18614.0",
+    "close_today_bal": "612381.0"
+  },
+  {
+    "record_date": "2025-04-21",
+    "open_today_bal": "612381.0",
+    "deposits_today": "43567.0",
+    "withdrawals_today": "29504.0",
+    "close_today_bal": "626444.0"
+  },
+  {
+    "record_date": "2025-04-22",
+    "open_today_bal": "626444.0",
+    "deposits_today": "275121.0",
+    "withdrawals_today": "294880.0",
+    "close_today_bal": "606684.0"
+  },
+  {
+    "record_date": "2025-04-23",
+    "open_today_bal": "606684.0",
+    "deposits_today": "32571.0",
+    "withdrawals_today": "63096.0",
+    "close_today_bal": "576159.0"
+  },
+  {
+    "record_date": "2025-04-24",
+    "open_today_bal": "576159.0",
+    "deposits_today": "245127.0",
+    "withdrawals_today": "258527.0",
+    "close_today_bal": "562759.0"
+  },
+  {
+    "record_date": "2025-04-25",
+    "open_today_bal": "562759.0",
+    "deposits_today": "28870.0",
+    "withdrawals_today": "19939.0",
+    "close_today_bal": "571691.0"
+  },
+  {
+    "record_date": "2025-04-28",
+    "open_today_bal": "571691.0",
+    "deposits_today": "46359.0",
+    "withdrawals_today": "20052.0",
+    "close_today_bal": "597998.0"
+  },
+  {
+    "record_date": "2025-04-29",
+    "open_today_bal": "597998.0",
+    "deposits_today": "254501.0",
+    "withdrawals_today": "235793.0",
+    "close_today_bal": "616705.0"
+  },
+  {
+    "record_date": "2025-04-30",
+    "open_today_bal": "616705.0",
+    "deposits_today": "307733.0",
+    "withdrawals_today": "246782.0",
+    "close_today_bal": "677657.0"
+  },
+  {
+    "record_date": "2025-05-01",
+    "open_today_bal": "677657.0",
+    "deposits_today": "278368.0",
+    "withdrawals_today": "362936.0",
+    "close_today_bal": "593088.0"
+  },
+  {
+    "record_date": "2025-05-02",
+    "open_today_bal": "593088.0",
+    "deposits_today": "23149.0",
+    "withdrawals_today": "41892.0",
+    "close_today_bal": "574345.0"
+  },
+  {
+    "record_date": "2025-05-05",
+    "open_today_bal": "574345.0",
+    "deposits_today": "33350.0",
+    "withdrawals_today": "17345.0",
+    "close_today_bal": "590351.0"
+  },
+  {
+    "record_date": "2025-05-06",
+    "open_today_bal": "590351.0",
+    "deposits_today": "235920.0",
+    "withdrawals_today": "242518.0",
+    "close_today_bal": "583753.0"
+  },
+  {
+    "record_date": "2025-05-07",
+    "open_today_bal": "583753.0",
+    "deposits_today": "29899.0",
+    "withdrawals_today": "17792.0",
+    "close_today_bal": "595860.0"
+  },
+  {
+    "record_date": "2025-05-08",
+    "open_today_bal": "595860.0",
+    "deposits_today": "236995.0",
+    "withdrawals_today": "256627.0",
+    "close_today_bal": "576228.0"
+  },
+  {
+    "record_date": "2025-05-09",
+    "open_today_bal": "576228.0",
+    "deposits_today": "16488.0",
+    "withdrawals_today": "19970.0",
+    "close_today_bal": "572746.0"
+  },
+  {
+    "record_date": "2025-05-12",
+    "open_today_bal": "572746.0",
+    "deposits_today": "32494.0",
+    "withdrawals_today": "21871.0",
+    "close_today_bal": "583369.0"
+  },
+  {
+    "record_date": "2025-05-13",
+    "open_today_bal": "583369.0",
+    "deposits_today": "258949.0",
+    "withdrawals_today": "251666.0",
+    "close_today_bal": "590652.0"
+  },
+  {
+    "record_date": "2025-05-14",
+    "open_today_bal": "590652.0",
+    "deposits_today": "19408.0",
+    "withdrawals_today": "47626.0",
+    "close_today_bal": "562433.0"
+  },
+  {
+    "record_date": "2025-05-15",
+    "open_today_bal": "562433.0",
+    "deposits_today": "471703.0",
+    "withdrawals_today": "537487.0",
+    "close_today_bal": "496649.0"
+  },
+  {
+    "record_date": "2025-05-16",
+    "open_today_bal": "496649.0",
+    "deposits_today": "27806.0",
+    "withdrawals_today": "19749.0",
+    "close_today_bal": "504706.0"
+  },
+  {
+    "record_date": "2025-05-19",
+    "open_today_bal": "504706.0",
+    "deposits_today": "33868.0",
+    "withdrawals_today": "15366.0",
+    "close_today_bal": "523207.0"
+  },
+  {
+    "record_date": "2025-05-20",
+    "open_today_bal": "523207.0",
+    "deposits_today": "233230.0",
+    "withdrawals_today": "244911.0",
+    "close_today_bal": "511526.0"
+  },
+  {
+    "record_date": "2025-05-21",
+    "open_today_bal": "511526.0",
+    "deposits_today": "20116.0",
+    "withdrawals_today": "55756.0",
+    "close_today_bal": "475886.0"
+  },
+  {
+    "record_date": "2025-05-22",
+    "open_today_bal": "475886.0",
+    "deposits_today": "252947.0",
+    "withdrawals_today": "255085.0",
+    "close_today_bal": "473748.0"
+  },
+  {
+    "record_date": "2025-05-23",
+    "open_today_bal": "473748.0",
+    "deposits_today": "17089.0",
+    "withdrawals_today": "20194.0",
+    "close_today_bal": "470643.0"
+  },
+  {
+    "record_date": "2025-05-27",
+    "open_today_bal": "470643.0",
+    "deposits_today": "256172.0",
+    "withdrawals_today": "249334.0",
+    "close_today_bal": "477481.0"
+  },
+  {
+    "record_date": "2025-05-28",
+    "open_today_bal": "477481.0",
+    "deposits_today": "11373.0",
+    "withdrawals_today": "52228.0",
+    "close_today_bal": "436627.0"
+  },
+  {
+    "record_date": "2025-05-29",
+    "open_today_bal": "436627.0",
+    "deposits_today": "241794.0",
+    "withdrawals_today": "278577.0",
+    "close_today_bal": "399844.0"
+  },
+  {
+    "record_date": "2025-05-30",
+    "open_today_bal": "399844.0",
+    "deposits_today": "64365.0",
+    "withdrawals_today": "112766.0",
+    "close_today_bal": "351443.0"
+  },
+  {
+    "record_date": "2025-06-02",
+    "open_today_bal": "351443.0",
+    "deposits_today": "277562.0",
+    "withdrawals_today": "189642.0",
+    "close_today_bal": "439362.0"
+  },
+  {
+    "record_date": "2025-06-03",
+    "open_today_bal": "439362.0",
+    "deposits_today": "215789.0",
+    "withdrawals_today": "272214.0",
+    "close_today_bal": "382937.0"
+  },
+  {
+    "record_date": "2025-06-04",
+    "open_today_bal": "382937.0",
+    "deposits_today": "19758.0",
+    "withdrawals_today": "26536.0",
+    "close_today_bal": "376160.0"
+  },
+  {
+    "record_date": "2025-06-05",
+    "open_today_bal": "376160.0",
+    "deposits_today": "217052.0",
+    "withdrawals_today": "242369.0",
+    "close_today_bal": "350843.0"
+  },
+  {
+    "record_date": "2025-06-06",
+    "open_today_bal": "350843.0",
+    "deposits_today": "16373.0",
+    "withdrawals_today": "22458.0",
+    "close_today_bal": "344758.0"
+  },
+  {
+    "record_date": "2025-06-09",
+    "open_today_bal": "344758.0",
+    "deposits_today": "33349.0",
+    "withdrawals_today": "19312.0",
+    "close_today_bal": "358796.0"
+  },
+  {
+    "record_date": "2025-06-10",
+    "open_today_bal": "358796.0",
+    "deposits_today": "199439.0",
+    "withdrawals_today": "248826.0",
+    "close_today_bal": "309409.0"
+  },
+  {
+    "record_date": "2025-06-11",
+    "open_today_bal": "309409.0",
+    "deposits_today": "27397.0",
+    "withdrawals_today": "59781.0",
+    "close_today_bal": "277025.0"
+  },
+  {
+    "record_date": "2025-06-12",
+    "open_today_bal": "277025.0",
+    "deposits_today": "276648.0",
+    "withdrawals_today": "292866.0",
+    "close_today_bal": "260807.0"
+  },
+  {
+    "record_date": "2025-06-13",
+    "open_today_bal": "260807.0",
+    "deposits_today": "49868.0",
+    "withdrawals_today": "22597.0",
+    "close_today_bal": "288078.0"
+  },
+  {
+    "record_date": "2025-06-16",
+    "open_today_bal": "288078.0",
+    "deposits_today": "232607.0",
+    "withdrawals_today": "74382.0",
+    "close_today_bal": "446302.0"
+  },
+  {
+    "record_date": "2025-06-17",
+    "open_today_bal": "446302.0",
+    "deposits_today": "206443.0",
+    "withdrawals_today": "243607.0",
+    "close_today_bal": "409139.0"
+  },
+  {
+    "record_date": "2025-06-18",
+    "open_today_bal": "409139.0",
+    "deposits_today": "29617.0",
+    "withdrawals_today": "54904.0",
+    "close_today_bal": "383851.0"
+  },
+  {
+    "record_date": "2025-06-20",
+    "open_today_bal": "383851.0",
+    "deposits_today": "228967.0",
+    "withdrawals_today": "246298.0",
+    "close_today_bal": "366520.0"
+  },
+  {
+    "record_date": "2025-06-23",
+    "open_today_bal": "366520.0",
+    "deposits_today": "37417.0",
+    "withdrawals_today": "29368.0",
+    "close_today_bal": "374568.0"
+  },
+  {
+    "record_date": "2025-06-24",
+    "open_today_bal": "374568.0",
+    "deposits_today": "226684.0",
+    "withdrawals_today": "243181.0",
+    "close_today_bal": "358071.0"
+  },
+  {
+    "record_date": "2025-06-25",
+    "open_today_bal": "358071.0",
+    "deposits_today": "24778.0",
+    "withdrawals_today": "48270.0",
+    "close_today_bal": "334579.0"
+  },
+  {
+    "record_date": "2025-06-26",
+    "open_today_bal": "334579.0",
+    "deposits_today": "219365.0",
+    "withdrawals_today": "249102.0",
+    "close_today_bal": "304841.0"
+  },
+  {
+    "record_date": "2025-06-27",
+    "open_today_bal": "304841.0",
+    "deposits_today": "50481.0",
+    "withdrawals_today": "16974.0",
+    "close_today_bal": "338348.0"
+  },
+  {
+    "record_date": "2025-06-30",
+    "open_today_bal": "338348.0",
+    "deposits_today": "282619.0",
+    "withdrawals_today": "163987.0",
+    "close_today_bal": "456980.0"
+  },
+  {
+    "record_date": "2025-07-01",
+    "open_today_bal": "456980.0",
+    "deposits_today": "265507.0",
+    "withdrawals_today": "354975.0",
+    "close_today_bal": "367512.0"
+  },
+  {
+    "record_date": "2025-07-02",
+    "open_today_bal": "367512.0",
+    "deposits_today": "22411.0",
+    "withdrawals_today": "17691.0",
+    "close_today_bal": "372232.0"
+  },
+  {
+    "record_date": "2025-07-03",
+    "open_today_bal": "372232.0",
+    "deposits_today": "224927.0",
+    "withdrawals_today": "283997.0",
+    "close_today_bal": "313162.0"
+  },
+  {
+    "record_date": "2025-07-07",
+    "open_today_bal": "313162.0",
+    "deposits_today": "38702.0",
+    "withdrawals_today": "19382.0",
+    "close_today_bal": "332482.0"
+  },
+  {
+    "record_date": "2025-07-08",
+    "open_today_bal": "332482.0",
+    "deposits_today": "237922.0",
+    "withdrawals_today": "227357.0",
+    "close_today_bal": "343047.0"
+  },
+  {
+    "record_date": "2025-07-09",
+    "open_today_bal": "343047.0",
+    "deposits_today": "16206.0",
+    "withdrawals_today": "48205.0",
+    "close_today_bal": "311048.0"
+  },
+  {
+    "record_date": "2025-07-10",
+    "open_today_bal": "311048.0",
+    "deposits_today": "276849.0",
+    "withdrawals_today": "299502.0",
+    "close_today_bal": "288395.0"
+  },
+  {
+    "record_date": "2025-07-11",
+    "open_today_bal": "288395.0",
+    "deposits_today": "15386.0",
+    "withdrawals_today": "21419.0",
+    "close_today_bal": "282363.0"
+  },
+  {
+    "record_date": "2025-07-14",
+    "open_today_bal": "282363.0",
+    "deposits_today": "30686.0",
+    "withdrawals_today": "14825.0",
+    "close_today_bal": "298224.0"
+  },
+  {
+    "record_date": "2025-07-15",
+    "open_today_bal": "298224.0",
+    "deposits_today": "372370.0",
+    "withdrawals_today": "342658.0",
+    "close_today_bal": "327937.0"
+  },
+  {
+    "record_date": "2025-07-16",
+    "open_today_bal": "327937.0",
+    "deposits_today": "29838.0",
+    "withdrawals_today": "45690.0",
+    "close_today_bal": "312085.0"
+  },
+  {
+    "record_date": "2025-07-17",
+    "open_today_bal": "312085.0",
+    "deposits_today": "242555.0",
+    "withdrawals_today": "237615.0",
+    "close_today_bal": "317026.0"
+  },
+  {
+    "record_date": "2025-07-18",
+    "open_today_bal": "317026.0",
+    "deposits_today": "17721.0",
+    "withdrawals_today": "19089.0",
+    "close_today_bal": "315658.0"
+  },
+  {
+    "record_date": "2025-07-21",
+    "open_today_bal": "315658.0",
+    "deposits_today": "31580.0",
+    "withdrawals_today": "27879.0",
+    "close_today_bal": "319359.0"
+  },
+  {
+    "record_date": "2025-07-22",
+    "open_today_bal": "319359.0",
+    "deposits_today": "246598.0",
+    "withdrawals_today": "220622.0",
+    "close_today_bal": "345335.0"
+  },
+  {
+    "record_date": "2025-07-23",
+    "open_today_bal": "345335.0",
+    "deposits_today": "35019.0",
+    "withdrawals_today": "46817.0",
+    "close_today_bal": "333538.0"
+  },
+  {
+    "record_date": "2025-07-24",
+    "open_today_bal": "333538.0",
+    "deposits_today": "250884.0",
+    "withdrawals_today": "235014.0",
+    "close_today_bal": "349408.0"
+  },
+  {
+    "record_date": "2025-07-25",
+    "open_today_bal": "349408.0",
+    "deposits_today": "13692.0",
+    "withdrawals_today": "15002.0",
+    "close_today_bal": "348098.0"
+  },
+  {
+    "record_date": "2025-07-28",
+    "open_today_bal": "348098.0",
+    "deposits_today": "30762.0",
+    "withdrawals_today": "16290.0",
+    "close_today_bal": "362570.0"
+  },
+  {
+    "record_date": "2025-07-29",
+    "open_today_bal": "362570.0",
+    "deposits_today": "260748.0",
+    "withdrawals_today": "205483.0",
+    "close_today_bal": "417834.0"
+  },
+  {
+    "record_date": "2025-07-30",
+    "open_today_bal": "417834.0",
+    "deposits_today": "16570.0",
+    "withdrawals_today": "14958.0",
+    "close_today_bal": "419446.0"
+  },
+  {
+    "record_date": "2025-07-31",
+    "open_today_bal": "419446.0",
+    "deposits_today": "528382.0",
+    "withdrawals_today": "450232.0",
+    "close_today_bal": "497596.0"
+  },
+  {
+    "record_date": "2025-08-01",
+    "open_today_bal": "497596.0",
+    "deposits_today": "36569.0",
+    "withdrawals_today": "156385.0",
+    "close_today_bal": "377780.0"
+  },
+  {
+    "record_date": "2025-08-04",
+    "open_today_bal": "377780.0",
+    "deposits_today": "33914.0",
+    "withdrawals_today": "18884.0",
+    "close_today_bal": "392810.0"
+  },
+  {
+    "record_date": "2025-08-05",
+    "open_today_bal": "392810.0",
+    "deposits_today": "260275.0",
+    "withdrawals_today": "193845.0",
+    "close_today_bal": "459240.0"
+  },
+  {
+    "record_date": "2025-08-06",
+    "open_today_bal": "459240.0",
+    "deposits_today": "20385.0",
+    "withdrawals_today": "15311.0",
+    "close_today_bal": "464315.0"
+  },
+  {
+    "record_date": "2025-08-07",
+    "open_today_bal": "464315.0",
+    "deposits_today": "311574.0",
+    "withdrawals_today": "284198.0",
+    "close_today_bal": "491691.0"
+  },
+  {
+    "record_date": "2025-08-08",
+    "open_today_bal": "491691.0",
+    "deposits_today": "14780.0",
+    "withdrawals_today": "15408.0",
+    "close_today_bal": "491063.0"
+  },
+  {
+    "record_date": "2025-08-11",
+    "open_today_bal": "491063.0",
+    "deposits_today": "28732.0",
+    "withdrawals_today": "15515.0",
+    "close_today_bal": "504280.0"
+  },
+  {
+    "record_date": "2025-08-12",
+    "open_today_bal": "504280.0",
+    "deposits_today": "262338.0",
+    "withdrawals_today": "221120.0",
+    "close_today_bal": "545499.0"
+  },
+  {
+    "record_date": "2025-08-13",
+    "open_today_bal": "545499.0",
+    "deposits_today": "16541.0",
+    "withdrawals_today": "46571.0",
+    "close_today_bal": "515469.0"
+  },
+  {
+    "record_date": "2025-08-14",
+    "open_today_bal": "515469.0",
+    "deposits_today": "266513.0",
+    "withdrawals_today": "232903.0",
+    "close_today_bal": "549080.0"
+  },
+  {
+    "record_date": "2025-08-15",
+    "open_today_bal": "549080.0",
+    "deposits_today": "185615.0",
+    "withdrawals_today": "241588.0",
+    "close_today_bal": "493107.0"
+  },
+  {
+    "record_date": "2025-08-18",
+    "open_today_bal": "493107.0",
+    "deposits_today": "43871.0",
+    "withdrawals_today": "17488.0",
+    "close_today_bal": "519490.0"
+  },
+  {
+    "record_date": "2025-08-19",
+    "open_today_bal": "519490.0",
+    "deposits_today": "268756.0",
+    "withdrawals_today": "225462.0",
+    "close_today_bal": "562784.0"
+  },
+  {
+    "record_date": "2025-08-20",
+    "open_today_bal": "562784.0",
+    "deposits_today": "21882.0",
+    "withdrawals_today": "58603.0",
+    "close_today_bal": "526063.0"
+  },
+  {
+    "record_date": "2025-08-21",
+    "open_today_bal": "526063.0",
+    "deposits_today": "262909.0",
+    "withdrawals_today": "227723.0",
+    "close_today_bal": "561249.0"
+  },
+  {
+    "record_date": "2025-08-22",
+    "open_today_bal": "561249.0",
+    "deposits_today": "35825.0",
+    "withdrawals_today": "15565.0",
+    "close_today_bal": "581509.0"
+  },
+  {
+    "record_date": "2025-08-25",
+    "open_today_bal": "581509.0",
+    "deposits_today": "31129.0",
+    "withdrawals_today": "17119.0",
+    "close_today_bal": "595519.0"
+  },
+  {
+    "record_date": "2025-08-26",
+    "open_today_bal": "595519.0",
+    "deposits_today": "264917.0",
+    "withdrawals_today": "227542.0",
+    "close_today_bal": "632894.0"
+  },
+  {
+    "record_date": "2025-08-27",
+    "open_today_bal": "632894.0",
+    "deposits_today": "19241.0",
+    "withdrawals_today": "56337.0",
+    "close_today_bal": "595798.0"
+  },
+  {
+    "record_date": "2025-08-28",
+    "open_today_bal": "595798.0",
+    "deposits_today": "259306.0",
+    "withdrawals_today": "245444.0",
+    "close_today_bal": "609660.0"
+  },
+  {
+    "record_date": "2025-08-29",
+    "open_today_bal": "609660.0",
+    "deposits_today": "55825.0",
+    "withdrawals_today": "110261.0",
+    "close_today_bal": "555224.0"
+  },
+  {
+    "record_date": "2025-09-02",
+    "open_today_bal": "555224.0",
+    "deposits_today": "532388.0",
+    "withdrawals_today": "397518.0",
+    "close_today_bal": "690094.0"
+  },
+  {
+    "record_date": "2025-09-03",
+    "open_today_bal": "690094.0",
+    "deposits_today": "14416.0",
+    "withdrawals_today": "42571.0",
+    "close_today_bal": "661939.0"
+  },
+  {
+    "record_date": "2025-09-04",
+    "open_today_bal": "661939.0",
+    "deposits_today": "312315.0",
+    "withdrawals_today": "304982.0",
+    "close_today_bal": "669272.0"
+  },
+  {
+    "record_date": "2025-09-05",
+    "open_today_bal": "669272.0",
+    "deposits_today": "14977.0",
+    "withdrawals_today": "18112.0",
+    "close_today_bal": "666137.0"
+  },
+  {
+    "record_date": "2025-09-08",
+    "open_today_bal": "666137.0",
+    "deposits_today": "32472.0",
+    "withdrawals_today": "18241.0",
+    "close_today_bal": "680369.0"
+  },
+  {
+    "record_date": "2025-09-09",
+    "open_today_bal": "680369.0",
+    "deposits_today": "265998.0",
+    "withdrawals_today": "256086.0",
+    "close_today_bal": "690281.0"
+  },
+  {
+    "record_date": "2025-09-10",
+    "open_today_bal": "690281.0",
+    "deposits_today": "26012.0",
+    "withdrawals_today": "48707.0",
+    "close_today_bal": "667585.0"
+  },
+  {
+    "record_date": "2025-09-11",
+    "open_today_bal": "667585.0",
+    "deposits_today": "271069.0",
+    "withdrawals_today": "255922.0",
+    "close_today_bal": "682732.0"
+  },
+  {
+    "record_date": "2025-09-12",
+    "open_today_bal": "682732.0",
+    "deposits_today": "46724.0",
+    "withdrawals_today": "21686.0",
+    "close_today_bal": "707770.0"
+  },
+  {
+    "record_date": "2025-09-15",
+    "open_today_bal": "707770.0",
+    "deposits_today": "222035.0",
+    "withdrawals_today": "72095.0",
+    "close_today_bal": "857709.0"
+  },
+  {
+    "record_date": "2025-09-16",
+    "open_today_bal": "857709.0",
+    "deposits_today": "291628.0",
+    "withdrawals_today": "325596.0",
+    "close_today_bal": "823741.0"
+  },
+  {
+    "record_date": "2025-09-17",
+    "open_today_bal": "823741.0",
+    "deposits_today": "31628.0",
+    "withdrawals_today": "48226.0",
+    "close_today_bal": "807142.0"
+  },
+  {
+    "record_date": "2025-09-18",
+    "open_today_bal": "807142.0",
+    "deposits_today": "266402.0",
+    "withdrawals_today": "257093.0",
+    "close_today_bal": "816451.0"
+  },
+  {
+    "record_date": "2025-09-19",
+    "open_today_bal": "816451.0",
+    "deposits_today": "20390.0",
+    "withdrawals_today": "18312.0",
+    "close_today_bal": "818530.0"
+  },
+  {
+    "record_date": "2025-09-22",
+    "open_today_bal": "818530.0",
+    "deposits_today": "37345.0",
+    "withdrawals_today": "33404.0",
+    "close_today_bal": "822471.0"
+  },
+  {
+    "record_date": "2025-09-23",
+    "open_today_bal": "822471.0",
+    "deposits_today": "291915.0",
+    "withdrawals_today": "332874.0",
+    "close_today_bal": "781512.0"
+  },
+  {
+    "record_date": "2025-09-24",
+    "open_today_bal": "781512.0",
+    "deposits_today": "26915.0",
+    "withdrawals_today": "50457.0",
+    "close_today_bal": "757970.0"
+  },
+  {
+    "record_date": "2025-09-25",
+    "open_today_bal": "757970.0",
+    "deposits_today": "267100.0",
+    "withdrawals_today": "263983.0",
+    "close_today_bal": "761087.0"
+  },
+  {
+    "record_date": "2025-09-26",
+    "open_today_bal": "761087.0",
+    "deposits_today": "49676.0",
+    "withdrawals_today": "24426.0",
+    "close_today_bal": "786337.0"
+  },
+  {
+    "record_date": "2025-09-29",
+    "open_today_bal": "786337.0",
+    "deposits_today": "40055.0",
+    "withdrawals_today": "20718.0",
+    "close_today_bal": "805674.0"
+  },
+  {
+    "record_date": "2025-09-30",
+    "open_today_bal": "805674.0",
+    "deposits_today": "511022.0",
+    "withdrawals_today": "425871.0",
+    "close_today_bal": "890825.0"
+  },
+  {
+    "record_date": "2025-10-01",
+    "open_today_bal": "890825.0",
+    "deposits_today": "40728.0",
+    "withdrawals_today": "112174.0",
+    "close_today_bal": "819378.0"
+  },
+  {
+    "record_date": "2025-10-02",
+    "open_today_bal": "819378.0",
+    "deposits_today": "322096.0",
+    "withdrawals_today": "317629.0",
+    "close_today_bal": "823845.0"
+  },
+  {
+    "record_date": "2025-10-03",
+    "open_today_bal": "823845.0",
+    "deposits_today": "17235.0",
+    "withdrawals_today": "42713.0",
+    "close_today_bal": "798367.0"
+  },
+  {
+    "record_date": "2025-10-06",
+    "open_today_bal": "798367.0",
+    "deposits_today": "30873.0",
+    "withdrawals_today": "13978.0",
+    "close_today_bal": "815262.0"
+  },
+  {
+    "record_date": "2025-10-07",
+    "open_today_bal": "815262.0",
+    "deposits_today": "277507.0",
+    "withdrawals_today": "269032.0",
+    "close_today_bal": "823736.0"
+  },
+  {
+    "record_date": "2025-10-08",
+    "open_today_bal": "823736.0",
+    "deposits_today": "20370.0",
+    "withdrawals_today": "50052.0",
+    "close_today_bal": "794054.0"
+  },
+  {
+    "record_date": "2025-10-09",
+    "open_today_bal": "794054.0",
+    "deposits_today": "270379.0",
+    "withdrawals_today": "268410.0",
+    "close_today_bal": "796023.0"
+  },
+  {
+    "record_date": "2025-10-10",
+    "open_today_bal": "796023.0",
+    "deposits_today": "19078.0",
+    "withdrawals_today": "20649.0",
+    "close_today_bal": "794452.0"
+  },
+  {
+    "record_date": "2025-10-14",
+    "open_today_bal": "794452.0",
+    "deposits_today": "319283.0",
+    "withdrawals_today": "272369.0",
+    "close_today_bal": "841366.0"
+  },
+  {
+    "record_date": "2025-10-15",
+    "open_today_bal": "841366.0",
+    "deposits_today": "157796.0",
+    "withdrawals_today": "147210.0",
+    "close_today_bal": "851952.0"
+  },
+  {
+    "record_date": "2025-10-16",
+    "open_today_bal": "851952.0",
+    "deposits_today": "311668.0",
+    "withdrawals_today": "263938.0",
+    "close_today_bal": "899682.0"
+  },
+  {
+    "record_date": "2025-10-17",
+    "open_today_bal": "899682.0",
+    "deposits_today": "19919.0",
+    "withdrawals_today": "14208.0",
+    "close_today_bal": "905393.0"
+  },
+  {
+    "record_date": "2025-10-20",
+    "open_today_bal": "905393.0",
+    "deposits_today": "30162.0",
+    "withdrawals_today": "29801.0",
+    "close_today_bal": "905754.0"
+  },
+  {
+    "record_date": "2025-10-21",
+    "open_today_bal": "905754.0",
+    "deposits_today": "289281.0",
+    "withdrawals_today": "265720.0",
+    "close_today_bal": "929315.0"
+  },
+  {
+    "record_date": "2025-10-22",
+    "open_today_bal": "929315.0",
+    "deposits_today": "24819.0",
+    "withdrawals_today": "49060.0",
+    "close_today_bal": "905074.0"
+  },
+  {
+    "record_date": "2025-10-23",
+    "open_today_bal": "905074.0",
+    "deposits_today": "303217.0",
+    "withdrawals_today": "263325.0",
+    "close_today_bal": "944965.0"
+  },
+  {
+    "record_date": "2025-10-24",
+    "open_today_bal": "944965.0",
+    "deposits_today": "15254.0",
+    "withdrawals_today": "17725.0",
+    "close_today_bal": "942495.0"
+  },
+  {
+    "record_date": "2025-10-27",
+    "open_today_bal": "942495.0",
+    "deposits_today": "35349.0",
+    "withdrawals_today": "13082.0",
+    "close_today_bal": "964762.0"
+  },
+  {
+    "record_date": "2025-10-28",
+    "open_today_bal": "964762.0",
+    "deposits_today": "288481.0",
+    "withdrawals_today": "268385.0",
+    "close_today_bal": "984857.0"
+  },
+  {
+    "record_date": "2025-10-29",
+    "open_today_bal": "984857.0",
+    "deposits_today": "20651.0",
+    "withdrawals_today": "21649.0",
+    "close_today_bal": "983859.0"
+  },
+  {
+    "record_date": "2025-10-30",
+    "open_today_bal": "983859.0",
+    "deposits_today": "334447.0",
+    "withdrawals_today": "317673.0",
+    "close_today_bal": "1000632.0"
+  },
+  {
+    "record_date": "2025-10-31",
+    "open_today_bal": "1000632.0",
+    "deposits_today": "289542.0",
+    "withdrawals_today": "363847.0",
+    "close_today_bal": "926328.0"
+  },
+  {
+    "record_date": "2025-11-03",
+    "open_today_bal": "926328.0",
+    "deposits_today": "55219.0",
+    "withdrawals_today": "56590.0",
+    "close_today_bal": "924957.0"
+  },
+  {
+    "record_date": "2025-11-04",
+    "open_today_bal": "924957.0",
+    "deposits_today": "292339.0",
+    "withdrawals_today": "277712.0",
+    "close_today_bal": "939584.0"
+  },
+  {
+    "record_date": "2025-11-05",
+    "open_today_bal": "939584.0",
+    "deposits_today": "21468.0",
+    "withdrawals_today": "18353.0",
+    "close_today_bal": "942700.0"
+  },
+  {
+    "record_date": "2025-11-06",
+    "open_today_bal": "942700.0",
+    "deposits_today": "278887.0",
+    "withdrawals_today": "268031.0",
+    "close_today_bal": "953555.0"
+  },
+  {
+    "record_date": "2025-11-07",
+    "open_today_bal": "953555.0",
+    "deposits_today": "14764.0",
+    "withdrawals_today": "18515.0",
+    "close_today_bal": "949804.0"
+  },
+  {
+    "record_date": "2025-11-10",
+    "open_today_bal": "949804.0",
+    "deposits_today": "32679.0",
+    "withdrawals_today": "17183.0",
+    "close_today_bal": "965301.0"
+  },
+  {
+    "record_date": "2025-11-12",
+    "open_today_bal": "965301.0",
+    "deposits_today": "293955.0",
+    "withdrawals_today": "316111.0",
+    "close_today_bal": "943145.0"
+  },
+  {
+    "record_date": "2025-11-13",
+    "open_today_bal": "943145.0",
+    "deposits_today": "294086.0",
+    "withdrawals_today": "275301.0",
+    "close_today_bal": "961929.0"
+  },
+  {
+    "record_date": "2025-11-14",
+    "open_today_bal": "961929.0",
+    "deposits_today": "20475.0",
+    "withdrawals_today": "23292.0",
+    "close_today_bal": "959113.0"
+  },
+  {
+    "record_date": "2025-11-17",
+    "open_today_bal": "959113.0",
+    "deposits_today": "189063.0",
+    "withdrawals_today": "223214.0",
+    "close_today_bal": "924961.0"
+  },
+  {
+    "record_date": "2025-11-18",
+    "open_today_bal": "924961.0",
+    "deposits_today": "288436.0",
+    "withdrawals_today": "284975.0",
+    "close_today_bal": "928422.0"
+  },
+  {
+    "record_date": "2025-11-19",
+    "open_today_bal": "928422.0",
+    "deposits_today": "24257.0",
+    "withdrawals_today": "51848.0",
+    "close_today_bal": "900832.0"
+  },
+  {
+    "record_date": "2025-11-20",
+    "open_today_bal": "900832.0",
+    "deposits_today": "285417.0",
+    "withdrawals_today": "276674.0",
+    "close_today_bal": "909575.0"
+  },
+  {
+    "record_date": "2025-11-21",
+    "open_today_bal": "909575.0",
+    "deposits_today": "15964.0",
+    "withdrawals_today": "33465.0",
+    "close_today_bal": "892074.0"
+  },
+  {
+    "record_date": "2025-11-24",
+    "open_today_bal": "892074.0",
+    "deposits_today": "34085.0",
+    "withdrawals_today": "19612.0",
+    "close_today_bal": "906547.0"
+  },
+  {
+    "record_date": "2025-11-25",
+    "open_today_bal": "906547.0",
+    "deposits_today": "312361.0",
+    "withdrawals_today": "287173.0",
+    "close_today_bal": "931736.0"
+  },
+  {
+    "record_date": "2025-11-26",
+    "open_today_bal": "931736.0",
+    "deposits_today": "25308.0",
+    "withdrawals_today": "57366.0",
+    "close_today_bal": "899678.0"
+  },
+  {
+    "record_date": "2025-11-28",
+    "open_today_bal": "899678.0",
+    "deposits_today": "380045.0",
+    "withdrawals_today": "323708.0",
+    "close_today_bal": "956014.0"
+  },
+  {
+    "record_date": "2025-12-01",
+    "open_today_bal": "956014.0",
+    "deposits_today": "265226.0",
+    "withdrawals_today": "273162.0",
+    "close_today_bal": "948079.0"
+  },
+  {
+    "record_date": "2025-12-02",
+    "open_today_bal": "948079.0",
+    "deposits_today": "273699.0",
+    "withdrawals_today": "285932.0",
+    "close_today_bal": "935847.0"
+  },
+  {
+    "record_date": "2025-12-03",
+    "open_today_bal": "935847.0",
+    "deposits_today": "19215.0",
+    "withdrawals_today": "46539.0",
+    "close_today_bal": "908523.0"
+  },
+  {
+    "record_date": "2025-12-04",
+    "open_today_bal": "908523.0",
+    "deposits_today": "253068.0",
+    "withdrawals_today": "282925.0",
+    "close_today_bal": "878666.0"
+  },
+  {
+    "record_date": "2025-12-05",
+    "open_today_bal": "878666.0",
+    "deposits_today": "15805.0",
+    "withdrawals_today": "24238.0",
+    "close_today_bal": "870232.0"
+  },
+  {
+    "record_date": "2025-12-08",
+    "open_today_bal": "870232.0",
+    "deposits_today": "32651.0",
+    "withdrawals_today": "22758.0",
+    "close_today_bal": "880125.0"
+  },
+  {
+    "record_date": "2025-12-09",
+    "open_today_bal": "880125.0",
+    "deposits_today": "255233.0",
+    "withdrawals_today": "298052.0",
+    "close_today_bal": "837306.0"
+  },
+  {
+    "record_date": "2025-12-10",
+    "open_today_bal": "837306.0",
+    "deposits_today": "21458.0",
+    "withdrawals_today": "52937.0",
+    "close_today_bal": "805827.0"
+  },
+  {
+    "record_date": "2025-12-11",
+    "open_today_bal": "805827.0",
+    "deposits_today": "265729.0",
+    "withdrawals_today": "278890.0",
+    "close_today_bal": "792667.0"
+  },
+  {
+    "record_date": "2025-12-12",
+    "open_today_bal": "792667.0",
+    "deposits_today": "30376.0",
+    "withdrawals_today": "30577.0",
+    "close_today_bal": "792465.0"
+  },
+  {
+    "record_date": "2025-12-15",
+    "open_today_bal": "792465.0",
+    "deposits_today": "192018.0",
+    "withdrawals_today": "71488.0",
+    "close_today_bal": "912994.0"
+  },
+  {
+    "record_date": "2025-12-16",
+    "open_today_bal": "912994.0",
+    "deposits_today": "267834.0",
+    "withdrawals_today": "293648.0",
+    "close_today_bal": "887180.0"
+  },
+  {
+    "record_date": "2025-12-17",
+    "open_today_bal": "887180.0",
+    "deposits_today": "22865.0",
+    "withdrawals_today": "48629.0",
+    "close_today_bal": "861417.0"
+  },
+  {
+    "record_date": "2025-12-18",
+    "open_today_bal": "861417.0",
+    "deposits_today": "259892.0",
+    "withdrawals_today": "278887.0",
+    "close_today_bal": "842422.0"
+  },
+  {
+    "record_date": "2025-12-19",
+    "open_today_bal": "842422.0",
+    "deposits_today": "22452.0",
+    "withdrawals_today": "25076.0",
+    "close_today_bal": "839799.0"
+  },
+  {
+    "record_date": "2025-12-22",
+    "open_today_bal": "839799.0",
+    "deposits_today": "64508.0",
+    "withdrawals_today": "32258.0",
+    "close_today_bal": "872048.0"
+  },
+  {
+    "record_date": "2025-12-23",
+    "open_today_bal": "872048.0",
+    "deposits_today": "248269.0",
+    "withdrawals_today": "295878.0",
+    "close_today_bal": "824439.0"
+  },
+  {
+    "record_date": "2025-12-24",
+    "open_today_bal": "824439.0",
+    "deposits_today": "25616.0",
+    "withdrawals_today": "48518.0",
+    "close_today_bal": "801537.0"
+  },
+  {
+    "record_date": "2025-12-26",
+    "open_today_bal": "801537.0",
+    "deposits_today": "346355.0",
+    "withdrawals_today": "314109.0",
+    "close_today_bal": "833784.0"
+  },
+  {
+    "record_date": "2025-12-29",
+    "open_today_bal": "833784.0",
+    "deposits_today": "38156.0",
+    "withdrawals_today": "12947.0",
+    "close_today_bal": "858993.0"
+  },
+  {
+    "record_date": "2025-12-30",
+    "open_today_bal": "858993.0",
+    "deposits_today": "255772.0",
+    "withdrawals_today": "288359.0",
+    "close_today_bal": "826406.0"
+  },
+  {
+    "record_date": "2025-12-31",
+    "open_today_bal": "826406.0",
+    "deposits_today": "276369.0",
+    "withdrawals_today": "229922.0",
+    "close_today_bal": "872853.0"
+  },
+  {
+    "record_date": "2026-01-02",
+    "open_today_bal": "872853.0",
+    "deposits_today": "299155.0",
+    "withdrawals_today": "390804.0",
+    "close_today_bal": "781204.0"
+  },
+  {
+    "record_date": "2026-01-05",
+    "open_today_bal": "781204.0",
+    "deposits_today": "37177.0",
+    "withdrawals_today": "17319.0",
+    "close_today_bal": "801062.0"
+  },
+  {
+    "record_date": "2026-01-06",
+    "open_today_bal": "801062.0",
+    "deposits_today": "247368.0",
+    "withdrawals_today": "276495.0",
+    "close_today_bal": "771936.0"
+  },
+  {
+    "record_date": "2026-01-07",
+    "open_today_bal": "771936.0",
+    "deposits_today": "26905.0",
+    "withdrawals_today": "15269.0",
+    "close_today_bal": "783571.0"
+  },
+  {
+    "record_date": "2026-01-08",
+    "open_today_bal": "783571.0",
+    "deposits_today": "263883.0",
+    "withdrawals_today": "273746.0",
+    "close_today_bal": "773709.0"
+  },
+  {
+    "record_date": "2026-01-09",
+    "open_today_bal": "773709.0",
+    "deposits_today": "18965.0",
+    "withdrawals_today": "17559.0",
+    "close_today_bal": "775114.0"
+  },
+  {
+    "record_date": "2026-01-12",
+    "open_today_bal": "775114.0",
+    "deposits_today": "40485.0",
+    "withdrawals_today": "18278.0",
+    "close_today_bal": "797322.0"
+  },
+  {
+    "record_date": "2026-01-13",
+    "open_today_bal": "797322.0",
+    "deposits_today": "255308.0",
+    "withdrawals_today": "271840.0",
+    "close_today_bal": "780790.0"
+  },
+  {
+    "record_date": "2026-01-14",
+    "open_today_bal": "780790.0",
+    "deposits_today": "45093.0",
+    "withdrawals_today": "48822.0",
+    "close_today_bal": "777061.0"
+  },
+  {
+    "record_date": "2026-01-15",
+    "open_today_bal": "777061.0",
+    "deposits_today": "481122.0",
+    "withdrawals_today": "417300.0",
+    "close_today_bal": "840883.0"
+  },
+  {
+    "record_date": "2026-01-16",
+    "open_today_bal": "840883.0",
+    "deposits_today": "46894.0",
+    "withdrawals_today": "19550.0",
+    "close_today_bal": "868226.0"
+  },
+  {
+    "record_date": "2026-01-20",
+    "open_today_bal": "868226.0",
+    "deposits_today": "297770.0",
+    "withdrawals_today": "266127.0",
+    "close_today_bal": "899869.0"
+  },
+  {
+    "record_date": "2026-01-21",
+    "open_today_bal": "899869.0",
+    "deposits_today": "19372.0",
+    "withdrawals_today": "48072.0",
+    "close_today_bal": "871169.0"
+  },
+  {
+    "record_date": "2026-01-22",
+    "open_today_bal": "871169.0",
+    "deposits_today": "345408.0",
+    "withdrawals_today": "328128.0",
+    "close_today_bal": "888450.0"
+  },
+  {
+    "record_date": "2026-01-23",
+    "open_today_bal": "888450.0",
+    "deposits_today": "27520.0",
+    "withdrawals_today": "15428.0",
+    "close_today_bal": "900542.0"
+  },
+  {
+    "record_date": "2026-01-26",
+    "open_today_bal": "900542.0",
+    "deposits_today": "59203.0",
+    "withdrawals_today": "16079.0",
+    "close_today_bal": "943665.0"
+  },
+  {
+    "record_date": "2026-01-27",
+    "open_today_bal": "943665.0",
+    "deposits_today": "281776.0",
+    "withdrawals_today": "250593.0",
+    "close_today_bal": "974848.0"
+  },
+  {
+    "record_date": "2026-01-28",
+    "open_today_bal": "974848.0",
+    "deposits_today": "25787.0",
+    "withdrawals_today": "47931.0",
+    "close_today_bal": "952705.0"
+  },
+  {
+    "record_date": "2026-01-29",
+    "open_today_bal": "952705.0",
+    "deposits_today": "282109.0",
+    "withdrawals_today": "266748.0",
+    "close_today_bal": "968066.0"
+  },
+  {
+    "record_date": "2026-01-30",
+    "open_today_bal": "968066.0",
+    "deposits_today": "43755.0",
+    "withdrawals_today": "118575.0",
+    "close_today_bal": "893245.0"
+  },
+  {
+    "record_date": "2026-02-02",
+    "open_today_bal": "893245.0",
+    "deposits_today": "310492.0",
+    "withdrawals_today": "305754.0",
+    "close_today_bal": "897983.0"
+  },
+  {
+    "record_date": "2026-02-03",
+    "open_today_bal": "897983.0",
+    "deposits_today": "286821.0",
+    "withdrawals_today": "276911.0",
+    "close_today_bal": "907892.0"
+  },
+  {
+    "record_date": "2026-02-04",
+    "open_today_bal": "907892.0",
+    "deposits_today": "18874.0",
+    "withdrawals_today": "19029.0",
+    "close_today_bal": "907737.0"
+  },
+  {
+    "record_date": "2026-02-05",
+    "open_today_bal": "907737.0",
+    "deposits_today": "276335.0",
+    "withdrawals_today": "269509.0",
+    "close_today_bal": "914563.0"
+  },
+  {
+    "record_date": "2026-02-06",
+    "open_today_bal": "914563.0",
+    "deposits_today": "14599.0",
+    "withdrawals_today": "23881.0",
+    "close_today_bal": "905282.0"
+  },
+  {
+    "record_date": "2026-02-09",
+    "open_today_bal": "905282.0",
+    "deposits_today": "31679.0",
+    "withdrawals_today": "19392.0",
+    "close_today_bal": "917568.0"
+  },
+  {
+    "record_date": "2026-02-10",
+    "open_today_bal": "917568.0",
+    "deposits_today": "285615.0",
+    "withdrawals_today": "254549.0",
+    "close_today_bal": "948634.0"
+  },
+  {
+    "record_date": "2026-02-11",
+    "open_today_bal": "948634.0",
+    "deposits_today": "19944.0",
+    "withdrawals_today": "58045.0",
+    "close_today_bal": "910533.0"
+  },
+  {
+    "record_date": "2026-02-12",
+    "open_today_bal": "910533.0",
+    "deposits_today": "279288.0",
+    "withdrawals_today": "268822.0",
+    "close_today_bal": "920999.0"
+  },
+  {
+    "record_date": "2026-02-13",
+    "open_today_bal": "920999.0",
+    "deposits_today": "20717.0",
+    "withdrawals_today": "28072.0",
+    "close_today_bal": "913645.0"
+  },
+  {
+    "record_date": "2026-02-17",
+    "open_today_bal": "913645.0",
+    "deposits_today": "494091.0",
+    "withdrawals_today": "483076.0",
+    "close_today_bal": "924659.0"
+  },
+  {
+    "record_date": "2026-02-18",
+    "open_today_bal": "924659.0",
+    "deposits_today": "15757.0",
+    "withdrawals_today": "51562.0",
+    "close_today_bal": "888854.0"
+  },
+  {
+    "record_date": "2026-02-19",
+    "open_today_bal": "888854.0",
+    "deposits_today": "341021.0",
+    "withdrawals_today": "325017.0",
+    "close_today_bal": "904858.0"
+  },
+  {
+    "record_date": "2026-02-20",
+    "open_today_bal": "904858.0",
+    "deposits_today": "19415.0",
+    "withdrawals_today": "30902.0",
+    "close_today_bal": "893370.0"
+  },
+  {
+    "record_date": "2026-02-23",
+    "open_today_bal": "893370.0",
+    "deposits_today": "38306.0",
+    "withdrawals_today": "43512.0",
+    "close_today_bal": "888165.0"
+  },
+  {
+    "record_date": "2026-02-24",
+    "open_today_bal": "888165.0",
+    "deposits_today": "302651.0",
+    "withdrawals_today": "289643.0",
+    "close_today_bal": "901173.0"
+  },
+  {
+    "record_date": "2026-02-25",
+    "open_today_bal": "901173.0",
+    "deposits_today": "21179.0",
+    "withdrawals_today": "83378.0",
+    "close_today_bal": "838975.0"
+  },
+  {
+    "record_date": "2026-02-26",
+    "open_today_bal": "838975.0",
+    "deposits_today": "280814.0",
+    "withdrawals_today": "270340.0",
+    "close_today_bal": "849449.0"
+  },
+  {
+    "record_date": "2026-02-27",
+    "open_today_bal": "849449.0",
+    "deposits_today": "61230.0",
+    "withdrawals_today": "111736.0",
+    "close_today_bal": "798943.0"
+  },
+  {
+    "record_date": "2026-03-02",
+    "open_today_bal": "798943.0",
+    "deposits_today": "297319.0",
+    "withdrawals_today": "224885.0",
+    "close_today_bal": "871377.0"
+  },
+  {
+    "record_date": "2026-03-03",
+    "open_today_bal": "871377.0",
+    "deposits_today": "293801.0",
+    "withdrawals_today": "305439.0",
+    "close_today_bal": "859738.0"
+  },
+  {
+    "record_date": "2026-03-04",
+    "open_today_bal": "859738.0",
+    "deposits_today": "23806.0",
+    "withdrawals_today": "36565.0",
+    "close_today_bal": "846979.0"
+  },
+  {
+    "record_date": "2026-03-05",
+    "open_today_bal": "846979.0",
+    "deposits_today": "273574.0",
+    "withdrawals_today": "279703.0",
+    "close_today_bal": "840850.0"
+  },
+  {
+    "record_date": "2026-03-06",
+    "open_today_bal": "840850.0",
+    "deposits_today": "17677.0",
+    "withdrawals_today": "25440.0",
+    "close_today_bal": "833086.0"
+  },
+  {
+    "record_date": "2026-03-09",
+    "open_today_bal": "833086.0",
+    "deposits_today": "44750.0",
+    "withdrawals_today": "19289.0",
+    "close_today_bal": "858548.0"
+  },
+  {
+    "record_date": "2026-03-10",
+    "open_today_bal": "858548.0",
+    "deposits_today": "287104.0",
+    "withdrawals_today": "282811.0",
+    "close_today_bal": "862841.0"
+  },
+  {
+    "record_date": "2026-03-11",
+    "open_today_bal": "862841.0",
+    "deposits_today": "23634.0",
+    "withdrawals_today": "80669.0",
+    "close_today_bal": "805806.0"
+  },
+  {
+    "record_date": "2026-03-12",
+    "open_today_bal": "805806.0",
+    "deposits_today": "286038.0",
+    "withdrawals_today": "282560.0",
+    "close_today_bal": "809284.0"
+  },
+  {
+    "record_date": "2026-03-13",
+    "open_today_bal": "809284.0",
+    "deposits_today": "28680.0",
+    "withdrawals_today": "31629.0",
+    "close_today_bal": "806335.0"
+  },
+  {
+    "record_date": "2026-03-16",
+    "open_today_bal": "806335.0",
+    "deposits_today": "195826.0",
+    "withdrawals_today": "64585.0",
+    "close_today_bal": "937577.0"
+  },
+  {
+    "record_date": "2026-03-17",
+    "open_today_bal": "937577.0",
+    "deposits_today": "279075.0",
+    "withdrawals_today": "286984.0",
+    "close_today_bal": "929668.0"
+  },
+  {
+    "record_date": "2026-03-18",
+    "open_today_bal": "929668.0",
+    "deposits_today": "20951.0",
+    "withdrawals_today": "74786.0",
+    "close_today_bal": "875833.0"
+  },
+  {
+    "record_date": "2026-03-19",
+    "open_today_bal": "875833.0",
+    "deposits_today": "335309.0",
+    "withdrawals_today": "328320.0",
+    "close_today_bal": "882822.0"
+  },
+  {
+    "record_date": "2026-03-20",
+    "open_today_bal": "882822.0",
+    "deposits_today": "18005.0",
+    "withdrawals_today": "29963.0",
+    "close_today_bal": "870864.0"
+  },
+  {
+    "record_date": "2026-03-23",
+    "open_today_bal": "870864.0",
+    "deposits_today": "56488.0",
+    "withdrawals_today": "17843.0",
+    "close_today_bal": "909509.0"
+  },
+  {
+    "record_date": "2026-03-24",
+    "open_today_bal": "909509.0",
+    "deposits_today": "259082.0",
+    "withdrawals_today": "292385.0",
+    "close_today_bal": "876206.0"
+  },
+  {
+    "record_date": "2026-03-25",
+    "open_today_bal": "876206.0",
+    "deposits_today": "19640.0",
+    "withdrawals_today": "58434.0",
+    "close_today_bal": "837412.0"
+  },
+  {
+    "record_date": "2026-03-26",
+    "open_today_bal": "837412.0",
+    "deposits_today": "269001.0",
+    "withdrawals_today": "283382.0",
+    "close_today_bal": "823031.0"
+  },
+  {
+    "record_date": "2026-03-27",
+    "open_today_bal": "823031.0",
+    "deposits_today": "47888.0",
+    "withdrawals_today": "22264.0",
+    "close_today_bal": "848655.0"
+  },
+  {
+    "record_date": "2026-03-30",
+    "open_today_bal": "848655.0",
+    "deposits_today": "41713.0",
+    "withdrawals_today": "21890.0",
+    "close_today_bal": "868478.0"
+  },
+  {
+    "record_date": "2026-03-31",
+    "open_today_bal": "868478.0",
+    "deposits_today": "496155.0",
+    "withdrawals_today": "471633.0",
+    "close_today_bal": "893000.0"
+  },
+  {
+    "record_date": "2026-04-01",
+    "open_today_bal": "893000.0",
+    "deposits_today": "44981.0",
+    "withdrawals_today": "134428.0",
+    "close_today_bal": "803553.0"
+  },
+  {
+    "record_date": "2026-04-02",
+    "open_today_bal": "803553.0",
+    "deposits_today": "273357.0",
+    "withdrawals_today": "300834.0",
+    "close_today_bal": "776076.0"
+  },
+  {
+    "record_date": "2026-04-03",
+    "open_today_bal": "776076.0",
+    "deposits_today": "21405.0",
+    "withdrawals_today": "43543.0",
+    "close_today_bal": "753938.0"
+  },
+  {
+    "record_date": "2026-04-06",
+    "open_today_bal": "753938.0",
+    "deposits_today": "37543.0",
+    "withdrawals_today": "16048.0",
+    "close_today_bal": "775433.0"
+  },
+  {
+    "record_date": "2026-04-07",
+    "open_today_bal": "775433.0",
+    "deposits_today": "246048.0",
+    "withdrawals_today": "293253.0",
+    "close_today_bal": "728227.0"
+  },
+  {
+    "record_date": "2026-04-08",
+    "open_today_bal": "728227.0",
+    "deposits_today": "27848.0",
+    "withdrawals_today": "58996.0",
+    "close_today_bal": "697079.0"
+  },
+  {
+    "record_date": "2026-04-09",
+    "open_today_bal": "697079.0",
+    "deposits_today": "274618.0",
+    "withdrawals_today": "284727.0",
+    "close_today_bal": "686969.0"
+  },
+  {
+    "record_date": "2026-04-10",
+    "open_today_bal": "686969.0",
+    "deposits_today": "43439.0",
+    "withdrawals_today": "27191.0",
+    "close_today_bal": "703218.0"
+  },
+  {
+    "record_date": "2026-04-13",
+    "open_today_bal": "703218.0",
+    "deposits_today": "75880.0",
+    "withdrawals_today": "20188.0",
+    "close_today_bal": "758910.0"
+  },
+  {
+    "record_date": "2026-04-14",
+    "open_today_bal": "758910.0",
+    "deposits_today": "308054.0",
+    "withdrawals_today": "287458.0",
+    "close_today_bal": "779506.0"
+  },
+  {
+    "record_date": "2026-04-15",
+    "open_today_bal": "779506.0",
+    "deposits_today": "313370.0",
+    "withdrawals_today": "168441.0",
+    "close_today_bal": "924435.0"
+  },
+  {
+    "record_date": "2026-04-16",
+    "open_today_bal": "924435.0",
+    "deposits_today": "381713.0",
+    "withdrawals_today": "334993.0",
+    "close_today_bal": "971155.0"
+  },
+  {
+    "record_date": "2026-04-17",
+    "open_today_bal": "971155.0",
+    "deposits_today": "62607.0",
+    "withdrawals_today": "35126.0",
+    "close_today_bal": "998636.0"
+  },
+  {
+    "record_date": "2026-04-20",
+    "open_today_bal": "998636.0",
+    "deposits_today": "57658.0",
+    "withdrawals_today": "18259.0",
+    "close_today_bal": "1038035.0"
+  },
+  {
+    "record_date": "2026-04-21",
+    "open_today_bal": "1038035.0",
+    "deposits_today": "269503.0",
+    "withdrawals_today": "278028.0",
+    "close_today_bal": "1029510.0"
+  },
+  {
+    "record_date": "2026-04-22",
+    "open_today_bal": "1029510.0",
+    "deposits_today": "51277.0",
+    "withdrawals_today": "73615.0",
+    "close_today_bal": "1007172.0"
+  },
+  {
+    "record_date": "2026-04-23",
+    "open_today_bal": "1007172.0",
+    "deposits_today": "272244.0",
+    "withdrawals_today": "309572.0",
+    "close_today_bal": "969844.0"
+  },
+  {
+    "record_date": "2026-04-24",
+    "open_today_bal": "969844.0",
+    "deposits_today": "25794.0",
+    "withdrawals_today": "21388.0",
+    "close_today_bal": "974251.0"
+  },
+  {
+    "record_date": "2026-04-27",
+    "open_today_bal": "974251.0",
+    "deposits_today": "45966.0",
+    "withdrawals_today": "17835.0",
+    "close_today_bal": "1002382.0"
+  },
+  {
+    "record_date": "2026-04-28",
+    "open_today_bal": "1002382.0",
+    "deposits_today": "263294.0",
+    "withdrawals_today": "275255.0",
+    "close_today_bal": "990422.0"
+  },
+  {
+    "record_date": "2026-04-29",
+    "open_today_bal": "990422.0",
+    "deposits_today": "25891.0",
+    "withdrawals_today": "28211.0",
+    "close_today_bal": "988102.0"
+  },
+  {
+    "record_date": "2026-04-30",
+    "open_today_bal": "988102.0",
+    "deposits_today": "563836.0",
+    "withdrawals_today": "582555.0",
+    "close_today_bal": "969383.0"
+  },
+  {
+    "record_date": "2026-05-01",
+    "open_today_bal": "969383.0",
+    "deposits_today": "43050.0",
+    "withdrawals_today": "155122.0",
+    "close_today_bal": "857311.0"
+  },
+  {
+    "record_date": "2026-05-04",
+    "open_today_bal": "857311.0",
+    "deposits_today": "39449.0",
+    "withdrawals_today": "16792.0",
+    "close_today_bal": "879968.0"
+  },
+  {
+    "record_date": "2026-05-05",
+    "open_today_bal": "879968.0",
+    "deposits_today": "247798.0",
+    "withdrawals_today": "267479.0",
+    "close_today_bal": "860287.0"
+  },
+  {
+    "record_date": "2026-05-06",
+    "open_today_bal": "860287.0",
+    "deposits_today": "22697.0",
+    "withdrawals_today": "20227.0",
+    "close_today_bal": "862757.0"
+  },
+  {
+    "record_date": "2026-05-07",
+    "open_today_bal": "862757.0",
+    "deposits_today": "265366.0",
+    "withdrawals_today": "281561.0",
+    "close_today_bal": "846562.0"
+  },
+  {
+    "record_date": "2026-05-08",
+    "open_today_bal": "846562.0",
+    "deposits_today": "18392.0",
+    "withdrawals_today": "25793.0",
+    "close_today_bal": "839161.0"
+  },
+  {
+    "record_date": "2026-05-11",
+    "open_today_bal": "839161.0",
+    "deposits_today": "35483.0",
+    "withdrawals_today": "20054.0",
+    "close_today_bal": "854589.0"
+  },
+  {
+    "record_date": "2026-05-12",
+    "open_today_bal": "854589.0",
+    "deposits_today": "260464.0",
+    "withdrawals_today": "271017.0",
+    "close_today_bal": "844036.0"
+  },
+  {
+    "record_date": "2026-05-13",
+    "open_today_bal": "844036.0",
+    "deposits_today": "16744.0",
+    "withdrawals_today": "53360.0",
+    "close_today_bal": "807420.0"
+  },
+  {
+    "record_date": "2026-05-14",
+    "open_today_bal": "807420.0",
+    "deposits_today": "324909.0",
+    "withdrawals_today": "329917.0",
+    "close_today_bal": "802412.0"
+  },
+  {
+    "record_date": "2026-05-15",
+    "open_today_bal": "802412.0",
+    "deposits_today": "182579.0",
+    "withdrawals_today": "226172.0",
+    "close_today_bal": "758819.0"
+  },
+  {
+    "record_date": "2026-05-18",
+    "open_today_bal": "758819.0",
+    "deposits_today": "44865.0",
+    "withdrawals_today": "17759.0",
+    "close_today_bal": "785925.0"
+  },
+  {
+    "record_date": "2026-05-19",
+    "open_today_bal": "785925.0",
+    "deposits_today": "293814.0",
+    "withdrawals_today": "257464.0",
+    "close_today_bal": "822275.0"
+  },
+  {
+    "record_date": "2026-05-20",
+    "open_today_bal": "822275.0",
+    "deposits_today": "21204.0",
+    "withdrawals_today": "61499.0",
+    "close_today_bal": "781979.0"
+  },
+  {
+    "record_date": "2026-05-21",
+    "open_today_bal": "781979.0",
+    "deposits_today": "275602.0",
+    "withdrawals_today": "271699.0",
+    "close_today_bal": "785882.0"
+  },
+  {
+    "record_date": "2026-05-22",
+    "open_today_bal": "785882.0",
+    "deposits_today": "57786.0",
+    "withdrawals_today": "18118.0",
+    "close_today_bal": "825550.0"
+  },
+  {
+    "record_date": "2026-05-26",
+    "open_today_bal": "825550.0",
+    "deposits_today": "314691.0",
+    "withdrawals_today": "258912.0",
+    "close_today_bal": "881329.0"
+  },
+  {
+    "record_date": "2026-05-27",
+    "open_today_bal": "881329.0",
+    "deposits_today": "13328.0",
+    "withdrawals_today": "51997.0",
+    "close_today_bal": "842660.0"
+  },
+  {
+    "record_date": "2026-05-28",
+    "open_today_bal": "842660.0",
+    "deposits_today": "279622.0",
+    "withdrawals_today": "272572.0",
+    "close_today_bal": "849710.0"
+  },
+  {
+    "record_date": "2026-05-29",
+    "open_today_bal": "849710.0",
+    "deposits_today": "68288.0",
+    "withdrawals_today": "14117.0",
+    "close_today_bal": "903881.0"
+  },
+  {
+    "record_date": "2026-06-01",
+    "open_today_bal": "903881.0",
+    "deposits_today": "280267.0",
+    "withdrawals_today": "327307.0",
+    "close_today_bal": "856842.0"
+  },
+  {
+    "record_date": "2026-06-02",
+    "open_today_bal": "856842.0",
+    "deposits_today": "263280.0",
+    "withdrawals_today": "254047.0",
+    "close_today_bal": "866075.0"
+  },
+  {
+    "record_date": "2026-06-03",
+    "open_today_bal": "866075.0",
+    "deposits_today": "24707.0",
+    "withdrawals_today": "45061.0",
+    "close_today_bal": "845722.0"
+  },
+  {
+    "record_date": "2026-06-04",
+    "open_today_bal": "845722.0",
+    "deposits_today": "266134.0",
+    "withdrawals_today": "267334.0",
+    "close_today_bal": "844521.0"
+  },
+  {
+    "record_date": "2026-06-05",
+    "open_today_bal": "844521.0",
+    "deposits_today": "15580.0",
+    "withdrawals_today": "34561.0",
+    "close_today_bal": "825540.0"
+  },
+  {
+    "record_date": "2026-06-08",
+    "open_today_bal": "825540.0",
+    "deposits_today": "38313.0",
+    "withdrawals_today": "19623.0",
+    "close_today_bal": "844229.0"
+  },
+  {
+    "record_date": "2026-06-09",
+    "open_today_bal": "844229.0",
+    "deposits_today": "247518.0",
+    "withdrawals_today": "261349.0",
+    "close_today_bal": "830399.0"
+  },
+  {
+    "record_date": "2026-06-10",
+    "open_today_bal": "830399.0",
+    "deposits_today": "27211.0",
+    "withdrawals_today": "56525.0",
+    "close_today_bal": "801084.0"
+  },
+  {
+    "record_date": "2026-06-11",
+    "open_today_bal": "801084.0",
+    "deposits_today": "321512.0",
+    "withdrawals_today": "323080.0",
+    "close_today_bal": "799517.0"
+  },
+  {
+    "record_date": "2026-06-12",
+    "open_today_bal": "799517.0",
+    "deposits_today": "46695.0",
+    "withdrawals_today": "30188.0",
+    "close_today_bal": "816023.0"
+  },
+  {
+    "record_date": "2026-06-15",
+    "open_today_bal": "816023.0",
+    "deposits_today": "234538.0",
+    "withdrawals_today": "70770.0",
+    "close_today_bal": "979791.0"
+  },
+  {
+    "record_date": "2026-06-16",
+    "open_today_bal": "979791.0",
+    "deposits_today": "271427.0",
+    "withdrawals_today": "270105.0",
+    "close_today_bal": "981113.0"
+  },
+  {
+    "record_date": "2026-06-17",
+    "open_today_bal": "981113.0",
+    "deposits_today": "26126.0",
+    "withdrawals_today": "50738.0",
+    "close_today_bal": "956502.0"
+  },
+  {
+    "record_date": "2026-06-18",
+    "open_today_bal": "956502.0",
+    "deposits_today": "267105.0",
+    "withdrawals_today": "308523.0",
+    "close_today_bal": "915085.0"
+  },
+  {
+    "record_date": "2026-06-22",
+    "open_today_bal": "915085.0",
+    "deposits_today": "60855.0",
+    "withdrawals_today": "33125.0",
+    "close_today_bal": "942815.0"
+  },
+  {
+    "record_date": "2026-06-23",
+    "open_today_bal": "942815.0",
+    "deposits_today": "262522.0",
+    "withdrawals_today": "279461.0",
+    "close_today_bal": "925876.0"
+  },
+  {
+    "record_date": "2026-06-24",
+    "open_today_bal": "925876.0",
+    "deposits_today": "27014.0",
+    "withdrawals_today": "51046.0",
+    "close_today_bal": "901845.0"
+  },
+  {
+    "record_date": "2026-06-25",
+    "open_today_bal": "901845.0",
+    "deposits_today": "258447.0",
+    "withdrawals_today": "288823.0",
+    "close_today_bal": "871469.0"
+  },
+  {
+    "record_date": "2026-06-26",
+    "open_today_bal": "871469.0",
+    "deposits_today": "45318.0",
+    "withdrawals_today": "21210.0",
+    "close_today_bal": "895576.0"
+  },
+  {
+    "record_date": "2026-06-29",
+    "open_today_bal": "895576.0",
+    "deposits_today": "33876.0",
+    "withdrawals_today": "52491.0",
+    "close_today_bal": "876961.0"
+  },
+  {
+    "record_date": "2026-06-30",
+    "open_today_bal": "876961.0",
+    "deposits_today": "494841.0",
+    "withdrawals_today": "452657.0",
+    "close_today_bal": "919145.0"
+  },
+  {
+    "record_date": "2026-07-01",
+    "open_today_bal": "919145.0",
+    "deposits_today": "43064.0",
+    "withdrawals_today": "154850.0",
+    "close_today_bal": "807359.0"
+  },
+  {
+    "record_date": "2026-07-02",
+    "open_today_bal": "807359.0",
+    "deposits_today": "283480.0",
+    "withdrawals_today": "320253.0",
+    "close_today_bal": "770587.0"
+  },
+  {
+    "record_date": "2026-07-03",
+    "open_today_bal": "770587.0",
+    "deposits_today": "14572.0",
+    "withdrawals_today": "8315.0",
+    "close_today_bal": "776843.0"
+  },
+  {
+    "record_date": "2026-07-06",
+    "open_today_bal": "776843.0",
+    "deposits_today": "28574.0",
+    "withdrawals_today": "22311.0",
+    "close_today_bal": "783107.0"
+  },
+  {
+    "record_date": "2026-07-07",
+    "open_today_bal": "783107.0",
+    "deposits_today": "262298.0",
+    "withdrawals_today": "260441.0",
+    "close_today_bal": "784964.0"
+  },
+  {
+    "record_date": "2026-07-08",
+    "open_today_bal": "784964.0",
+    "deposits_today": "18298.0",
+    "withdrawals_today": "54019.0",
+    "close_today_bal": "749244.0"
+  },
+  {
+    "record_date": "2026-07-09",
+    "open_today_bal": "749244.0",
+    "deposits_today": "335959.0",
+    "withdrawals_today": "340566.0",
+    "close_today_bal": "744637.0"
+  },
+  {
+    "record_date": "2026-07-10",
+    "open_today_bal": "744637.0",
+    "deposits_today": "14755.0",
+    "withdrawals_today": "21120.0",
+    "close_today_bal": "738273.0"
+  },
+  {
+    "record_date": "2026-07-13",
+    "open_today_bal": "738273.0",
+    "deposits_today": "31143.0",
+    "withdrawals_today": "19134.0",
+    "close_today_bal": "750282.0"
+  },
+  {
+    "record_date": "2026-07-14",
+    "open_today_bal": "750282.0",
+    "deposits_today": "300990.0",
+    "withdrawals_today": "263458.0",
+    "close_today_bal": "787814.0"
+  },
+  {
+    "record_date": "2026-07-15",
+    "open_today_bal": "787814.0",
+    "deposits_today": "164297.0",
+    "withdrawals_today": "156135.0",
+    "close_today_bal": "795976.0"
+  },
+  {
+    "record_date": "2026-07-16",
+    "open_today_bal": "795976.0",
+    "deposits_today": "298520.0",
+    "withdrawals_today": "271986.0",
+    "close_today_bal": "822510.0"
+  },
+  {
+    "record_date": "2026-07-17",
+    "open_today_bal": "822510.0",
+    "deposits_today": "14393.0",
+    "withdrawals_today": "21484.0",
+    "close_today_bal": "815418.0"
+  },
+  {
+    "record_date": "2026-07-20",
+    "open_today_bal": "815418.0",
+    "deposits_today": "32881.0",
+    "withdrawals_today": "20103.0",
+    "close_today_bal": "828197.0"
+  },
+  {
+    "record_date": "2026-07-21",
+    "open_today_bal": "828197.0",
+    "deposits_today": "310515.0",
+    "withdrawals_today": "263732.0",
+    "close_today_bal": "874980.0"
+  },
+  {
+    "record_date": "2026-07-22",
+    "open_today_bal": "874980.0",
+    "deposits_today": "18798.0",
+    "withdrawals_today": "58360.0",
+    "close_today_bal": "835417.0"
+  },
+  {
+    "record_date": "2026-07-23",
+    "open_today_bal": "835417.0",
+    "deposits_today": "308468.0",
+    "withdrawals_today": "266684.0",
+    "close_today_bal": "877201.0"
+  },
+  {
+    "record_date": "2026-07-24",
+    "open_today_bal": "877201.0",
+    "deposits_today": "27042.0",
+    "withdrawals_today": "17944.0",
+    "close_today_bal": "886300.0"
+  },
+  {
+    "record_date": "2026-07-27",
+    "open_today_bal": "886300.0",
+    "deposits_today": "33776.0",
+    "withdrawals_today": "17325.0",
+    "close_today_bal": "902751.0"
+  },
+  {
+    "record_date": "2026-07-28",
+    "open_today_bal": "902751.0",
+    "deposits_today": "309447.0",
+    "withdrawals_today": "246062.0",
+    "close_today_bal": "966136.0"
+  },
+  {
+    "record_date": "2026-07-29",
+    "open_today_bal": "966136.0",
+    "deposits_today": "22514.0",
+    "withdrawals_today": "18208.0",
+    "close_today_bal": "970442.0"
+  },
+  {
+    "record_date": "2026-07-30",
+    "open_today_bal": "970442.0",
+    "deposits_today": "293729.0",
+    "withdrawals_today": "266225.0",
+    "close_today_bal": "997946.0"
+  },
+  {
+    "record_date": "2026-07-31",
+    "open_today_bal": "997946.0",
+    "deposits_today": "281854.0",
+    "withdrawals_today": "403235.0",
+    "close_today_bal": "876566.0"
+  },
+  {
+    "record_date": "2026-08-03",
+    "open_today_bal": "876566.0",
+    "deposits_today": "59203.0",
+    "withdrawals_today": "65686.0",
+    "close_today_bal": "870083.0"
+  },
+  {
+    "record_date": "2026-08-04",
+    "open_today_bal": "870083.0",
+    "deposits_today": "312260.0",
+    "withdrawals_today": "258123.0",
+    "close_today_bal": "924219.0"
+  },
+  {
+    "record_date": "2026-08-05",
+    "open_today_bal": "924219.0",
+    "deposits_today": "21365.0",
+    "withdrawals_today": "16259.0",
+    "close_today_bal": "929325.0"
+  },
+  {
+    "record_date": "2026-08-06",
+    "open_today_bal": "929325.0",
+    "deposits_today": "350416.0",
+    "withdrawals_today": "318015.0",
+    "close_today_bal": "961726.0"
+  },
+  {
+    "record_date": "2026-08-07",
+    "open_today_bal": "961726.0",
+    "deposits_today": "14542.0",
+    "withdrawals_today": "22155.0",
+    "close_today_bal": "954113.0"
+  },
+  {
+    "record_date": "2026-08-10",
+    "open_today_bal": "954113.0",
+    "deposits_today": "30086.0",
+    "withdrawals_today": "17348.0",
+    "close_today_bal": "966851.0"
+  },
+  {
+    "record_date": "2026-08-11",
+    "open_today_bal": "966851.0",
+    "deposits_today": "307531.0",
+    "withdrawals_today": "277052.0",
+    "close_today_bal": "997330.0"
+  },
+  {
+    "record_date": "2026-08-12",
+    "open_today_bal": "997330.0",
+    "deposits_today": "17279.0",
+    "withdrawals_today": "55204.0",
+    "close_today_bal": "959405.0"
+  },
+  {
+    "record_date": "2026-08-13",
+    "open_today_bal": "959405.0",
+    "deposits_today": "289110.0",
+    "withdrawals_today": "281928.0",
+    "close_today_bal": "966587.0"
+  },
+  {
+    "record_date": "2026-08-14",
+    "open_today_bal": "966587.0",
+    "deposits_today": "19092.0",
+    "withdrawals_today": "26495.0",
+    "close_today_bal": "959184.0"
+  },
+  {
+    "record_date": "2026-08-17",
+    "open_today_bal": "959184.0",
+    "deposits_today": "205240.0",
+    "withdrawals_today": "231639.0",
+    "close_today_bal": "932785.0"
+  },
+  {
+    "record_date": "2026-08-18",
+    "open_today_bal": "932785.0",
+    "deposits_today": "315449.0",
+    "withdrawals_today": "286282.0",
+    "close_today_bal": "961952.0"
+  },
+  {
+    "record_date": "2026-08-19",
+    "open_today_bal": "961952.0",
+    "deposits_today": "23396.0",
+    "withdrawals_today": "48942.0",
+    "close_today_bal": "936406.0"
+  },
+  {
+    "record_date": "2026-08-20",
+    "open_today_bal": "936406.0",
+    "deposits_today": "295501.0",
+    "withdrawals_today": "296830.0",
+    "close_today_bal": "935077.0"
+  },
+  {
+    "record_date": "2026-08-21",
+    "open_today_bal": "935077.0",
+    "deposits_today": "15764.0",
+    "withdrawals_today": "17623.0",
+    "close_today_bal": "933218.0"
+  },
+  {
+    "record_date": "2026-08-24",
+    "open_today_bal": "933218.0",
+    "deposits_today": "50397.0",
+    "withdrawals_today": "16765.0",
+    "close_today_bal": "966849.0"
+  },
+  {
+    "record_date": "2026-08-25",
+    "open_today_bal": "966849.0",
+    "deposits_today": "313926.0",
+    "withdrawals_today": "286638.0",
+    "close_today_bal": "994137.0"
+  },
+  {
+    "record_date": "2026-08-26",
+    "open_today_bal": "994137.0",
+    "deposits_today": "18341.0",
+    "withdrawals_today": "53043.0",
+    "close_today_bal": "959435.0"
+  },
+  {
+    "record_date": "2026-08-27",
+    "open_today_bal": "959435.0",
+    "deposits_today": "288576.0",
+    "withdrawals_today": "297207.0",
+    "close_today_bal": "950804.0"
+  },
+  {
+    "record_date": "2026-08-28",
+    "open_today_bal": "950804.0",
+    "deposits_today": "44528.0",
+    "withdrawals_today": "23989.0",
+    "close_today_bal": "971343.0"
+  },
+  {
+    "record_date": "2026-08-31",
+    "open_today_bal": "971343.0",
+    "deposits_today": "270397.0",
+    "withdrawals_today": "218186.0",
+    "close_today_bal": "1023554.0"
+  },
+  {
+    "record_date": "2026-09-01",
+    "open_today_bal": "1023554.0",
+    "deposits_today": "319714.0",
+    "withdrawals_today": "400475.0",
+    "close_today_bal": "942793.0"
+  },
+  {
+    "record_date": "2026-09-02",
+    "open_today_bal": "942793.0",
+    "deposits_today": "22980.0",
+    "withdrawals_today": "21409.0",
+    "close_today_bal": "944364.0"
+  },
+  {
+    "record_date": "2026-09-03",
+    "open_today_bal": "944364.0",
+    "deposits_today": "336240.0",
+    "withdrawals_today": "376676.0",
+    "close_today_bal": "903928.0"
+  },
+  {
+    "record_date": "2026-09-04",
+    "open_today_bal": "903928.0",
+    "deposits_today": "17562.0",
+    "withdrawals_today": "32567.0",
+    "close_today_bal": "888923.0"
+  },
+  {
+    "record_date": "2026-09-08",
+    "open_today_bal": "888923.0",
+    "deposits_today": "300422.0",
+    "withdrawals_today": "309326.0",
+    "close_today_bal": "880019.0"
+  },
+  {
+    "record_date": "2026-09-09",
+    "open_today_bal": "880019.0",
+    "deposits_today": "15943.0",
+    "withdrawals_today": "52257.0",
+    "close_today_bal": "843705.0"
+  },
+  {
+    "record_date": "2026-09-10",
+    "open_today_bal": "843705.0",
+    "deposits_today": "291986.0",
+    "withdrawals_today": "317581.0",
+    "close_today_bal": "818110.0"
+  },
+  {
+    "record_date": "2026-09-11",
+    "open_today_bal": "818110.0",
+    "deposits_today": "34042.0",
+    "withdrawals_today": "29952.0",
+    "close_today_bal": "822200.0"
+  },
+  {
+    "record_date": "2026-09-14",
+    "open_today_bal": "822200.0",
+    "deposits_today": "75767.0",
+    "withdrawals_today": "26743.0",
+    "close_today_bal": "871224.0"
+  },
+  {
+    "record_date": "2026-09-15",
+    "open_today_bal": "871224.0",
+    "deposits_today": "496853.0",
+    "withdrawals_today": "376519.0",
+    "close_today_bal": "991557.0"
+  },
+  {
+    "record_date": "2026-09-16",
+    "open_today_bal": "991557.0",
+    "deposits_today": "50321.0",
+    "withdrawals_today": "50170.0",
+    "close_today_bal": "991708.0"
+  },
+  {
+    "record_date": "2026-09-17",
+    "open_today_bal": "991708.0",
+    "deposits_today": "283312.0",
+    "withdrawals_today": "302346.0",
+    "close_today_bal": "972675.0"
+  },
+  {
+    "record_date": "2026-09-18",
+    "open_today_bal": "972675.0",
+    "deposits_today": "32794.0",
+    "withdrawals_today": "19537.0",
+    "close_today_bal": "985932.0"
+  },
+  {
+    "record_date": "2026-09-21",
+    "open_today_bal": "985932.0",
+    "deposits_today": "35366.0",
+    "withdrawals_today": "16907.0",
+    "close_today_bal": "1004391.0"
+  },
+  {
+    "record_date": "2026-09-22",
+    "open_today_bal": "1004391.0",
+    "deposits_today": "283175.0",
+    "withdrawals_today": "330157.0",
+    "close_today_bal": "957409.0"
+  },
+  {
+    "record_date": "2026-09-23",
+    "open_today_bal": "957409.0",
+    "deposits_today": "43980.0",
+    "withdrawals_today": "54071.0",
+    "close_today_bal": "947317.0"
+  },
+  {
+    "record_date": "2026-09-24",
+    "open_today_bal": "947317.0",
+    "deposits_today": "278110.0",
+    "withdrawals_today": "300800.0",
+    "close_today_bal": "924627.0"
+  },
+  {
+    "record_date": "2026-09-25",
+    "open_today_bal": "924627.0",
+    "deposits_today": "49518.0",
+    "withdrawals_today": "28854.0",
+    "close_today_bal": "945290.0"
+  },
+  {
+    "record_date": "2026-09-28",
+    "open_today_bal": "945290.0",
+    "deposits_today": "34933.0",
+    "withdrawals_today": "20651.0",
+    "close_today_bal": "959572.0"
+  },
+  {
+    "record_date": "2026-09-29",
+    "open_today_bal": "959572.0",
+    "deposits_today": "283527.0",
+    "withdrawals_today": "306499.0",
+    "close_today_bal": "936600.0"
+  },
+  {
+    "record_date": "2026-09-30",
+    "open_today_bal": "936600.0",
+    "deposits_today": "261824.0",
+    "withdrawals_today": "214379.0",
+    "close_today_bal": "984046.0"
+  },
+  {
+    "record_date": "2026-10-01",
+    "open_today_bal": "984046.0",
+    "deposits_today": "373651.0",
+    "withdrawals_today": "463997.0",
+    "close_today_bal": "893699.0"
+  }
+]
