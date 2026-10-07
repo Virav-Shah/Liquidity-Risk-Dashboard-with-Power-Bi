@@ -3,15 +3,30 @@ let rawLiquidityData = [];
 let charts = {};
 let selectedTimeframeDays = 180;
 let stressParameter = 0.25; // 25% shock
+let selectedHeatmapYear = '2026'; // Default single-year heatmap view
 
 // Document Ready
 document.addEventListener('DOMContentLoaded', async () => {
   initTabs();
   initStressControls();
   initTimeframeFilter();
+  initHeatmapYearControls();
   await loadLiquidityData();
   setupRefreshButton();
 });
+
+// Heatmap Year Selector
+function initHeatmapYearControls() {
+  const yearBtns = document.querySelectorAll('.year-btn');
+  yearBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      yearBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      selectedHeatmapYear = btn.getAttribute('data-year');
+      renderLiquidityHeatmap(rawLiquidityData);
+    });
+  });
+}
 
 // Tab Navigation
 function initTabs() {
@@ -499,16 +514,19 @@ function renderCoverageLineChart(data) {
   });
 }
 
-// 5. Liquidity Risk Heatmap Table
+// 5. Liquidity Risk Heatmap Table (Filtered by Individual Year)
 function renderLiquidityHeatmap(records) {
   const container = document.getElementById('heatmap-view');
   if (!container || !records.length) return;
 
   const weekdays = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'];
-  // Group by Month (Year-Month) and Day of Week
+  // Group by Month (Year-Month) and Day of Week, strictly for selected single year
   const matrix = {}; // { 'YYYY-MM': { 'Mon': [netFlows], ... } }
 
-  records.forEach(r => {
+  const targetYear = selectedHeatmapYear || '2026';
+  const yearRecords = records.filter(r => r.record_date && r.record_date.startsWith(targetYear));
+
+  yearRecords.forEach(r => {
     const parts = r.record_date.split('-');
     const yearMonth = `${parts[0]}-${parts[1]}`;
     const dateObj = new Date(parts[0], parts[1] - 1, parts[2]);
@@ -523,8 +541,8 @@ function renderLiquidityHeatmap(records) {
     }
   });
 
-  // Sort Months descending (most recent first)
-  const monthKeys = Object.keys(matrix).sort().reverse().slice(0, 16);
+  // Sort Months chronologically (Jan -> Dec) for the chosen year
+  const monthKeys = Object.keys(matrix).sort();
 
   let html = `
     <table class="heatmap-table">

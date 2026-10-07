@@ -279,12 +279,26 @@ with tab_monitor:
 
 # ----------------- TAB 2: Heatmap -----------------
 with tab_heatmap:
-    st.subheader("🗓️ Treasury Liquidity Drain Heatmap: Month vs. Weekday")
-    st.caption("Average Net Daily Cash Flow ($B). Dark Red highlights recurring structural liquidity drains; Green highlights tax settlement surpluses.")
+    st.subheader("🗓️ Treasury Liquidity Drain Heatmap (Single Year Analysis)")
+    st.caption("Net Daily Cash Flow ($B) mapped across Months (Jan–Dec) and Weekdays (Mon–Fri) for a single individual calendar year.")
 
-    heatmap_df = df[df['WeekdayNum'] < 5].copy() # Mon to Fri
-    pivot_table = heatmap_df.pivot_table(
-        index='YearMonth',
+    # Year selection for single-year heatmap view
+    available_years = sorted(df['Year'].unique(), reverse=True)
+    heatmap_selected_year = st.radio(
+        "Select Calendar Year to Analyze:",
+        options=available_years,
+        index=0,
+        horizontal=True,
+        format_func=lambda y: f"{y} (YTD)" if y == 2026 else (f"{y} (Full Year)" if y == 2025 else f"{y} (Q4)")
+    )
+
+    year_filtered_df = df[(df['Year'] == heatmap_selected_year) & (df['WeekdayNum'] < 5)].copy()
+    
+    # Format month as Month Name (e.g., "01 - Jan", "02 - Feb" to ensure chronological order)
+    year_filtered_df['MonthOrder'] = year_filtered_df['record_date'].dt.strftime('%m - %b')
+    
+    pivot_table = year_filtered_df.pivot_table(
+        index='MonthOrder',
         columns='Weekday',
         values='net_flow_B',
         aggfunc='mean'
@@ -292,24 +306,24 @@ with tab_heatmap:
     # Order weekdays
     weekday_order = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri']
     pivot_table = pivot_table.reindex(columns=[c for c in weekday_order if c in pivot_table.columns])
-    pivot_table = pivot_table.sort_index(ascending=False).head(14) # Trailing 14 months
+    pivot_table = pivot_table.sort_index(ascending=True) # Chronological Jan -> Dec
 
     fig_heat = px.imshow(
         pivot_table,
-        labels=dict(x="Day of Week", y="Period (Year-Month)", color="Avg Net Flow ($B)"),
+        labels=dict(x="Day of Week", y=f"Months ({heatmap_selected_year})", color="Avg Net Flow ($B)"),
         color_continuous_scale="RdYlGn",
         color_continuous_midpoint=0,
         text_auto=".1f",
         template='plotly_dark',
         aspect="auto"
     )
-    fig_heat.update_layout(height=480, margin=dict(l=20, r=20, t=30, b=20))
+    fig_heat.update_layout(height=450, margin=dict(l=20, r=20, t=30, b=20))
     st.plotly_chart(fig_heat, use_container_width=True)
 
-    st.info("""
-    **💡 Observed Liquidity Insights:**
-    - **Mid-Month Inflow Clusters:** Significant positive surges occur mid-month due to federal corporate quarterly tax payments and bi-weekly payroll withholding settlements.
-    - **Month-End & Month-Start Drawdowns:** Structural negative cash drawdowns cluster at the start and end of months due to Social Security, Medicare, military payroll, and debt redemption cycles.
+    st.info(f"""
+    **💡 Observed Liquidity Patterns in {heatmap_selected_year}:**
+    - **Mid-Month Tax Receipt Cycles:** Corporate quarterly taxes and bi-weekly payroll withholding remit large positive cash influxes around the 15th of each month.
+    - **Month-End & Month-Start Drain Cycles:** Entitlement payouts (Social Security, Medicare) and Treasury debt rollovers cluster around month boundaries, resulting in significant negative net cash flows.
     """)
 
 # ----------------- TAB 3: Stresstesting & Runoff -----------------

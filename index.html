@@ -187,12 +187,22 @@
               <h3 class="panel-title">Treasury Liquidity Risk & Net Cash Flow Heatmap</h3>
               <p class="panel-sub">Net Daily Cash Flow ($B) mapped across Months and Days of Week to detect recurring liquidity drainage cycles</p>
             </div>
-            <div class="heatmap-legend">
-              <span class="legend-item"><span class="color-box deep-red"></span> Severe Drain (< -$20B)</span>
-              <span class="legend-item"><span class="color-box soft-red"></span> Moderate Drain (-$5B to -$20B)</span>
-              <span class="legend-item"><span class="color-box neutral"></span> Balanced / Neutral</span>
-              <span class="legend-item"><span class="color-box soft-green"></span> Inflow Surplus (+$5B to +$20B)</span>
-              <span class="legend-item"><span class="color-box deep-green"></span> Heavy Surplus (> +$20B)</span>
+            <div class="heatmap-header-controls">
+              <div class="year-filter-group">
+                <span class="filter-label">Select Year:</span>
+                <div class="year-selector" id="heatmap-year-selector">
+                  <button class="year-btn active" data-year="2026">2026 (YTD)</button>
+                  <button class="year-btn" data-year="2025">2025 (Full Year)</button>
+                  <button class="year-btn" data-year="2024">2024 (Q4)</button>
+                </div>
+              </div>
+              <div class="heatmap-legend">
+                <span class="legend-item"><span class="color-box deep-red"></span> Severe Drain (< -$20B)</span>
+                <span class="legend-item"><span class="color-box soft-red"></span> Moderate Drain (-$5B to -$20B)</span>
+                <span class="legend-item"><span class="color-box neutral"></span> Balanced / Neutral</span>
+                <span class="legend-item"><span class="color-box soft-green"></span> Inflow Surplus (+$5B to +$20B)</span>
+                <span class="legend-item"><span class="color-box deep-green"></span> Heavy Surplus (> +$20B)</span>
+              </div>
             </div>
           </div>
 
