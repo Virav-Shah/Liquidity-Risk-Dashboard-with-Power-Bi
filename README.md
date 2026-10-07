@@ -108,6 +108,21 @@ All metrics below are computed directly from the underlying 500 business-day Tre
 
 ---
 
+### 🛡️ Multi-Tier Liquidity Coverage Framework (Interview Defense Benchmark)
+
+To address the distinction between gross debt rollover turnover and true operating expenditure runway, the dashboard framework provides three complementary layers of liquidity coverage:
+
+| Coverage Metric Tier | Daily Burn Rate Used | Result (on $893.7B TGA Cash) | What It Measures | Policy / Alert Benchmark |
+| :--- | :--- | :--- | :--- | :--- |
+| **Tier 1: Gross Cash Coverage (DTS Table I)** | **~$175.4B / day** (trailing 30D gross withdrawals) | **5.1 Days** | Immediate survival runway if **100% of debt auctions freeze** and all maturing debt must be paid in cash. | U.S. Treasury targets roughly **5 to 7 business days** (1 week) of gross outflows as its operational buffer. Alert: $< 5\text{ Days}$. |
+| **Tier 2: Operating-Only Coverage (Excluding Debt Redemptions)** | **~$28.0B / day** (~$7.0T/yr federal spending $\div$ 250 business days) | **≈ 31.9 Business Days** (~1.5 Months) | Pure governmental spending runway (Social Security, Medicare, DoD, federal wages) without refinancing pressure. | Institutional liquidity target: **≥ 30 Business Days**. Alert: $< 20\text{ Days}$. |
+| **Tier 3: Net Cash Deficit Runway (Outflows − Non-Debt Inflows)** | **~$7.2B / day** (~$1.8T/yr net deficit $\div$ 250 business days) | **≈ 124 Business Days** (~6 Months) | Time until cash exhaustion assuming normal tax collections continue but Treasury cannot issue net new debt. | Sovereign debt-ceiling exhaustion horizon. Alert: $< 45\text{ Days}$. |
+
+> **💡 The Executive Explanation:**
+> *"When looking at DTS Table I, the headline 5.1-day coverage ratio is dominated by gross public debt rollover (~75% of daily outflows). The U.S. Treasury prudently targets roughly 1 week of gross outflows as its cash buffer. By stripping out debt redemptions, we see our operating-only buffer covers ~32 business days of non-debt government spending, and our net cash deficit runway spans over 120 business days."*
+
+---
+
 ## 🖥️ Dashboard Architecture & Core Views
 
 ### Page 1: Cash Position & Outflow Monitoring
