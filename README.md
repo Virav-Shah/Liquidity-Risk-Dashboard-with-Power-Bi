@@ -70,20 +70,41 @@ $$\text{Stressed Net Cash Flow} = \text{Real Inflows} - \text{Stressed Outflows}
 
 ## 📈 Observed Results & Real-World Insights
 
-Analysis of the 500-day Treasury dataset reveals distinctive liquidity patterns:
+All metrics below are computed directly from the underlying 500 business-day Treasury dataset ([`Fact_DailyLiquidity.csv`](file:///Users/viravshah/Liquidity%20Risk%20DashBoard/Fact_DailyLiquidity.csv), spanning October 2024 through October 2026):
 
-| Metric | Latest Observation (Oct 2026) | Trailing 180-Day Average | Historical Range |
+| Metric | Latest Observation (`2026-10-01`) | Trailing 180-Day Average | Historical 500-Day Range (Min – Max) |
 | :--- | :--- | :--- | :--- |
-| **Ending Cash Balance (TGA)** | **$893.70 Billion** | $840.12 Billion | $520.10B – $1,023.55B |
-| **Daily Inflows (Deposits)** | **$373.65 Billion** | $14.20 Billion | $1.20B – $373.65B |
-| **Daily Outflows (Withdrawals)**| **$464.00 Billion** | $15.10 Billion | $2.50B – $464.00B |
-| **Net Daily Cash Flow** | **-$90.35 Billion** | -$0.90 Billion | -$120.40B – +$180.20B |
-| **Liquidity Coverage Ratio** | **5.1 Days** | ~38.4 Days | 5.1 Days – 58.2 Days |
+| **Ending Cash Balance (TGA)** | **$893.70 Billion** | **$884.80 Billion** | $260.81B – $1,038.04B |
+| **Daily Inflows (Gross Deposits)** | **$373.65 Billion** | **$160.13 Billion** | $11.37B – $571.15B (Median: $63.49B) |
+| **Daily Outflows (Gross Withdrawals)**| **$464.00 Billion** | **$159.84 Billion** | $8.32B – $582.55B (Median: $74.58B) |
+| **Net Daily Cash Flow** | **-$90.35 Billion** | **+$0.29 Billion** | -$121.38B – +$184.78B |
+| **30-Day Rolling Burn Rate** | **$175.41 Billion / day** | **$159.84 Billion / day** | $137.36B – $194.18B / day |
+| **Liquidity Coverage Ratio** | **5.1 Days** | **5.6 Days** | 1.7 Days – 7.0 Days (Median: 5.1 Days) |
 
-### Key Behavioral Dynamics:
-1. **Mid-Month Tax Liquidity Influx**: Large positive cash flow spikes occur regularly around the 15th of each month (corporate quarterly taxes and individual payroll withholding settlements).
-2. **Month-End Benefit Outflow Clusters**: The largest single-day liquidity drains consistently occur on the 1st and final days of the calendar month (Social Security, Medicare, and coupon rollover settlements).
-3. **Stress Testing Sensitivity**: Under a **+25% outflow surge shock**, the Treasury's effective cash buffer compresses from an average of ~38 days down to **29.1 days**, breaching safe operational thresholds and signaling the need for short-term Cash Management Bill (CMB) auctions.
+---
+
+### 🔍 Crucial Financial Context: Gross vs. Net Flows & The Debt Rollover Cycle
+
+#### 1. Why Are Gross Inflows/Outflows in Hundreds of Billions, but Net Flow Is Near Zero?
+* The Daily Treasury Statement reports **gross cash transactions**. The vast majority of daily cash volume stems from **Public Debt Cash Issues** (gross borrowing) and **Public Debt Cash Redemptions** (maturing debt payoffs).
+* For example, on the latest observation day (`2026-10-01`):
+  * **Gross Outflow ($464.00B):** Driven by **$341.43B** in maturing debt redemptions + **$122.57B** in federal program disbursements (Medicare, military retirement, VA benefits).
+  * **Gross Inflow ($373.65B):** Driven by **$343.40B** in new short-term debt auctions + **$30.25B** in taxes and federal collections.
+  * **Net Liquidity Drawdown:** -$90.35B.
+* Over the full 500-day cycle, average daily gross inflow (**$153.83B**) and outflow (**$153.68B**) virtually balance out, yielding an average net daily delta of just **+$0.14B/day**.
+
+#### 2. Understanding the 5.1-Day Coverage Ratio
+* The Liquidity Coverage Ratio measures:
+  $$\text{Days of Liquidity} = \frac{\text{Ending Cash Balance}}{\text{Trailing 30-Day Daily Gross Burn}} = \frac{\$893.70\text{B}}{\$175.41\text{B/day}} = \mathbf{5.1\text{ Days}}$$
+* In sovereign finance, an operational cash balance of ~$900B represents **5.1 days of total gross debt rollover & disbursements** if the Treasury were unable to issue any new debt into primary debt markets.
+* Across the 500-day history, this coverage ratio fluctuates within a narrow band between **1.7 Days and 7.0 Days** (mean: **5.6 Days**, median: **5.1 Days**).
+
+#### 3. Outflow Stresstesting Dynamics (+25% Shock)
+* Evaluating the trailing 90-day baseline (mean daily outflow of **$161.07B/day**):
+  * **Baseline 90-Day Coverage:** $\frac{\$893.70\text{B}}{\$161.07\text{B/day}} = \mathbf{5.5\text{ Days}}$
+  * **Stressed Outflow (+25% Surge):** $\$161.07\text{B} \times 1.25 = \mathbf{\$201.33\text{B/day}}$
+  * **Stressed Coverage:** $\frac{\$893.70\text{B}}{\$201.33\text{B/day}} = \mathbf{4.4\text{ Days}}$
+  * **Liquidity Compression:** A +25% unhedged disbursement/redemption surge strips **1.1 days** of total sovereign cash runway, breaching operational buffers and requiring immediate issuance of Cash Management Bills (CMBs).
 
 ---
 
