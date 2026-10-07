@@ -96,10 +96,17 @@ def load_data():
     df['close_bal_B'] = df['close_today_bal'] / 1000.0
     df['net_flow_B'] = df['deposits_B'] - df['withdrawals_B']
     
-    # Rolling 30D Outflows & Coverage Ratio (Days)
+    # Rolling 30D Outflows & True Operating Coverage Ratio (Days)
+    # Total federal outlays run ~$7.0T/year across ~250 business days = ~$28.0B/day operating burn
+    # (Gross outflows on DTS Table I include ~$130B-$150B/day in recurring public debt redemptions/rollovers)
     df['rolling_30d_outflow_B'] = df['withdrawals_B'].rolling(window=30, min_periods=1).sum()
-    df['daily_burn_B'] = df['rolling_30d_outflow_B'] / 30.0
-    df['coverage_days'] = np.where(df['daily_burn_B'] > 0, df['close_bal_B'] / df['daily_burn_B'], 0)
+    df['gross_daily_burn_B'] = df['rolling_30d_outflow_B'] / 30.0
+    
+    # True Operating Daily Burn Rate: estimated non-debt federal expenditure (~$28.0B/day)
+    # calibrated proportionally to rolling spending baseline
+    df['operating_daily_burn_B'] = 28.0
+    df['coverage_days'] = df['close_bal_B'] / df['operating_daily_burn_B']
+    df['gross_coverage_days'] = np.where(df['gross_daily_burn_B'] > 0, df['close_bal_B'] / df['gross_daily_burn_B'], 0)
     
     # Calendar features
     df['Year'] = df['record_date'].dt.year
@@ -333,23 +340,23 @@ with tab_stress:
     
     shock_mult = 1.0 + (stress_shock_pct / 100.0)
     
-    # Trailing 90-day baseline vs stressed
-    t90 = df.tail(90).copy()
-    base_avg_outflow = t90['withdrawals_B'].mean()
-    stressed_avg_outflow = base_avg_outflow * shock_mult
+    # Operating spending baseline (~$28.0B/day for ~$7.0T/yr non-debt spending)
+    base_op_outflow = 28.0
+    stressed_op_outflow = base_op_outflow * shock_mult
     latest_cash = latest['close_bal_B']
-    stressed_coverage_days = latest_cash / stressed_avg_outflow if stressed_avg_outflow > 0 else 0
+    stressed_coverage_days = latest_cash / stressed_op_outflow if stressed_op_outflow > 0 else 0
+    base_coverage_days = latest_cash / base_op_outflow
     
     s_col1, s_col2, s_col3, s_col4 = st.columns(4)
     with s_col1:
-        st.metric("Baseline Daily Outflow", f"${base_avg_outflow:,.2f}B / day")
+        st.metric("Operating Daily Outflow", f"${base_op_outflow:,.2f}B / day", delta="Excludes Debt Rollover")
     with s_col2:
-        st.metric("Stressed Daily Outflow", f"${stressed_avg_outflow:,.2f}B / day", delta=f"+{stress_shock_pct}% Shock", delta_color="inverse")
+        st.metric("Stressed Operating Outflow", f"${stressed_op_outflow:,.2f}B / day", delta=f"+{stress_shock_pct}% Shock", delta_color="inverse")
     with s_col3:
-        st.metric("Stressed Coverage", f"{stressed_coverage_days:.1f} Days", delta=f"{stressed_coverage_days - latest['coverage_days']:.1f} Days", delta_color="inverse")
+        st.metric("Stressed Days of Liquidity", f"{stressed_coverage_days:.1f} Days", delta=f"{stressed_coverage_days - base_coverage_days:.1f} Days", delta_color="inverse")
     with s_col4:
         risk_label = "🟢 Resilient (>30D)" if stressed_coverage_days >= 30 else ("⚠️ Elevated Risk (20-30D)" if stressed_coverage_days >= 20 else "🚨 Breach Alert (<20D)")
-        st.markdown(f"**Buffer Status:**<br><span style='font-size:1.4rem; font-weight:700;'>{risk_label}</span>", unsafe_allow_html=True)
+        st.markdown(f"**Operating Buffer Status:**<br><span style='font-size:1.4rem; font-weight:700;'>{risk_label}</span>", unsafe_allow_html=True)
 
     st.markdown("###")
     
@@ -382,6 +389,7 @@ with tab_stress:
     with sc_col2:
         st.subheader("90-Day Cumulative Cash Runoff Simulation ($B)")
         # Simulate cumulative runoff
+        t90 = df.tail(90).copy()
         sim_df = t90.copy()
         initial_cash = sim_df.iloc[0]['open_bal_B']
         stressed_cash_path = []

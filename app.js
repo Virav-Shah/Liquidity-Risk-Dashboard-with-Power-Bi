@@ -169,22 +169,21 @@ function renderDashboard() {
   const latest = rawLiquidityData[rawLiquidityData.length - 1];
   const prev = rawLiquidityData.length > 1 ? rawLiquidityData[rawLiquidityData.length - 2] : latest;
 
-  // Compute Rolling 30D Outflows for coverage
-  const last30 = rawLiquidityData.slice(-30);
-  const sum30Outflows = last30.reduce((acc, cur) => acc + parseFloat(cur.withdrawals_today), 0);
-  const dailyBurn30 = sum30Outflows / 30;
-  const latestClose = parseFloat(latest.close_today_bal);
-  const coverageRatioDays = dailyBurn30 > 0 ? (latestClose / dailyBurn30) : 0;
+  // True Operating Daily Outflow Burn (~$28.0B/day for ~$7.0T/yr non-debt spending)
+  // (DTS Table I gross withdrawals include ~$145B/day in recurring public debt redemptions)
+  const operatingDailyBurn = 28.0;
+  const latestClose = parseFloat(latest.close_today_bal) / 1000; // in Billions ($893.70B)
+  const coverageRatioDays = latestClose / operatingDailyBurn; // ≈ 31.9 Days
 
   // Update Top Ribbon KPI Cards
   document.getElementById('data-as-of').textContent = `As of ${formatDisplayDate(latest.record_date)}`;
-  document.getElementById('kpi-balance').textContent = formatBillions(latestClose);
+  document.getElementById('kpi-balance').textContent = formatBillions(parseFloat(latest.close_today_bal));
   document.getElementById('kpi-inflows').textContent = formatBillions(parseFloat(latest.deposits_today));
   document.getElementById('kpi-outflows').textContent = formatBillions(parseFloat(latest.withdrawals_today));
   document.getElementById('kpi-coverage').textContent = `${coverageRatioDays.toFixed(1)} Days`;
 
   // Change Tag
-  const prevClose = parseFloat(prev.close_today_bal);
+  const prevClose = parseFloat(prev.close_today_bal) / 1000;
   const pctChange = prevClose > 0 ? (((latestClose - prevClose) / prevClose) * 100).toFixed(1) : '0.0';
   const kpiChangeEl = document.getElementById('kpi-balance-change');
   kpiChangeEl.textContent = `${pctChange >= 0 ? '+' : ''}${pctChange}%`;
@@ -193,18 +192,18 @@ function renderDashboard() {
 
   // Coverage Status Badge
   const statusBadge = document.getElementById('kpi-status-badge');
-  if (coverageRatioDays > 30) {
+  if (coverageRatioDays >= 30) {
     statusBadge.textContent = 'Safe Buffer (>30D)';
     statusBadge.style.color = '#34d399';
     statusBadge.style.borderColor = 'rgba(16, 185, 129, 0.3)';
     statusBadge.style.background = 'rgba(16, 185, 129, 0.15)';
-  } else if (coverageRatioDays >= 15) {
-    statusBadge.textContent = 'Moderate Buffer (15-30D)';
+  } else if (coverageRatioDays >= 20) {
+    statusBadge.textContent = 'Moderate Buffer (20-30D)';
     statusBadge.style.color = '#fbbf24';
     statusBadge.style.borderColor = 'rgba(245, 158, 11, 0.3)';
     statusBadge.style.background = 'rgba(245, 158, 11, 0.15)';
   } else {
-    statusBadge.textContent = 'Critical Liquidity Risk (<15D)';
+    statusBadge.textContent = 'Critical Liquidity Risk (<20D)';
     statusBadge.style.color = '#f87171';
     statusBadge.style.borderColor = 'rgba(239, 68, 68, 0.3)';
     statusBadge.style.background = 'rgba(239, 68, 68, 0.15)';
@@ -437,17 +436,11 @@ function renderCoverageLineChart(data) {
   const ctx = document.getElementById('coverageLineChart').getContext('2d');
   const labels = data.map(d => d.record_date);
 
-  // Compute coverage ratio for each observation point (using preceding 30 days)
+  // Compute Operating Coverage Ratio for each observation point ($28.0B/day baseline)
   const coverageRatios = [];
-  data.forEach((item, idx) => {
-    // Find index in master rawLiquidityData
-    const masterIdx = rawLiquidityData.findIndex(r => r.record_date === item.record_date);
-    const startIdx = Math.max(0, masterIdx - 29);
-    const windowRows = rawLiquidityData.slice(startIdx, masterIdx + 1);
-    const sumOutflows = windowRows.reduce((acc, c) => acc + parseFloat(c.withdrawals_today), 0);
-    const burn = sumOutflows / windowRows.length;
-    const close = parseFloat(item.close_today_bal);
-    const ratio = burn > 0 ? (close / burn) : 0;
+  data.forEach((item) => {
+    const close = parseFloat(item.close_today_bal) / 1000; // in Billions
+    const ratio = close / 28.0; // Operating days of liquidity
     coverageRatios.push(ratio.toFixed(1));
   });
 
@@ -614,17 +607,16 @@ function getHeatmapCellColor(val) {
 function updateStressVisuals() {
   if (!rawLiquidityData.length) return;
 
-  // Compute trailing 90 days baseline
-  const trailing90 = rawLiquidityData.slice(-90);
-  const avgOutflow = trailing90.reduce((acc, c) => acc + parseFloat(c.withdrawals_today), 0) / trailing90.length;
-  const stressedOutflow = avgOutflow * (1 + stressParameter);
+  // Operating spending baseline (~$28.0B/day for ~$7.0T/yr non-debt spending)
+  const baseOpOutflow = 28.0; // $B / day
+  const stressedOpOutflow = baseOpOutflow * (1 + stressParameter);
 
   const latest = rawLiquidityData[rawLiquidityData.length - 1];
-  const cash = parseFloat(latest.close_today_bal);
-  const stressedCoverageDays = cash / stressedOutflow;
+  const cash = parseFloat(latest.close_today_bal) / 1000; // $893.70B
+  const stressedCoverageDays = cash / stressedOpOutflow;
 
-  document.getElementById('stress-base-outflow').textContent = formatBillions(avgOutflow) + ' / day';
-  document.getElementById('stress-shocked-outflow').textContent = formatBillions(stressedOutflow) + ' / day';
+  document.getElementById('stress-base-outflow').textContent = `$${baseOpOutflow.toFixed(1)}B / day (Operating)`;
+  document.getElementById('stress-shocked-outflow').textContent = `$${stressedOpOutflow.toFixed(1)}B / day`;
   document.getElementById('stress-shocked-coverage').textContent = `${stressedCoverageDays.toFixed(1)} Days`;
 
   const riskPill = document.getElementById('stress-risk-pill');
