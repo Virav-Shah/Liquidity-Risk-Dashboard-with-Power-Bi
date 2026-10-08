@@ -289,14 +289,14 @@ with tab_heatmap:
     st.subheader("🗓️ Treasury Liquidity Drain Heatmap (Single Year Analysis)")
     st.caption("Net Daily Cash Flow ($B) mapped across Months (Jan–Dec) and Weekdays (Mon–Fri) for a single individual calendar year.")
 
-    # Year selection for single-year heatmap view
-    available_years = sorted(df['Year'].unique(), reverse=True)
+    # Year selection for single-year heatmap view (Completed calendar years)
+    available_years = [y for y in sorted(df['Year'].unique(), reverse=True) if y != 2026]
     heatmap_selected_year = st.radio(
         "Select Calendar Year to Analyze:",
         options=available_years,
         index=0,
         horizontal=True,
-        format_func=lambda y: f"{y} (YTD)" if y == 2026 else (f"{y} (Full Year)" if y == 2025 else f"{y} (Q4)")
+        format_func=lambda y: f"{y} (Full Year)" if y == 2025 else f"{y} (Q4 Baseline)"
     )
 
     year_filtered_df = df[(df['Year'] == heatmap_selected_year) & (df['WeekdayNum'] < 5)].copy()

@@ -3,7 +3,7 @@ let rawLiquidityData = [];
 let charts = {};
 let selectedTimeframeDays = 180;
 let stressParameter = 0.25; // 25% shock
-let selectedHeatmapYear = '2026'; // Default single-year heatmap view
+let selectedHeatmapYear = '2025'; // Default single-year heatmap view (Full Year)
 
 // Document Ready
 document.addEventListener('DOMContentLoaded', async () => {
@@ -516,7 +516,7 @@ function renderLiquidityHeatmap(records) {
   // Group by Month (Year-Month) and Day of Week, strictly for selected single year
   const matrix = {}; // { 'YYYY-MM': { 'Mon': [netFlows], ... } }
 
-  const targetYear = selectedHeatmapYear || '2026';
+  const targetYear = selectedHeatmapYear || '2025';
   const yearRecords = records.filter(r => r.record_date && r.record_date.startsWith(targetYear));
 
   yearRecords.forEach(r => {
